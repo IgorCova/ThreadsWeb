@@ -7,16 +7,30 @@ html,body{
 
 header {
   display: block;
-  border: 1px solid red;
+  border-bottom:#cacaca 1px solid ;
+   box-shadow: 0px 0px 4px 1px #cacaca;
   width:100%;
   position:fixed;
   height:73px;
 }
 
 @font-face {
+    font-family: LatoLight; /* Гарнитура шрифта */
+    src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+   }
+   
+@font-face {
     font-family: latoRegular; /* Гарнитура шрифта */
     src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
    }
+   
+   
+@font-face {
+    font-family: Comfortaa-Bold; /* Гарнитура шрифта */
+    src: url(../fonts/Comfortaa-Bold.ttf); /* Путь к файлу со шрифтом */
+   }
+   
+  
 
 header .clear{clear:both;}
 
@@ -50,6 +64,8 @@ margin-left:45px;
 margin-top:25px;
 text-decoration:none;
 color:#2185c4;
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
 }
 
 header #telegram span a:last-child:hover{
@@ -70,8 +86,10 @@ header #logo span{
 position:absolute;
 color:#2185c4;
 font-weight:bold;
-font-size:200%;
-margin-top:15px;
+font-size:250%;
+margin-top:5px;
+font-family: Comfortaa-Bold; /* Гарнитура шрифта */
+src: url(../fonts/Comfortaa-Bold.ttf); /* Путь к файлу со шрифтом */
 }
 
 header #navigation nav ul {
@@ -83,19 +101,29 @@ margin-right:0px;
 }
 
 
-header nav ul li{
+header #navigation nav ul li{
 float:left;
 list-style:none;
 margin-left:27px;
 }
 
- header nav ul li a{
+header #navigation nav ul li a:first-child{
+font-family: LatoRegular; /* Гарнитура шрифта */
+src: url(../fonts/LatoRegular.ttf); /* Путь к файлу со шрифтом */
 color:#2185c4;
 display:block;
 text-decoration:none;
 }
 
- header nav ul li a:hover{
+header #navigation nav ul li a .last{
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+color:#2185c4;
+display:block;
+text-decoration:none;
+}
+
+ header #navigation nav ul li a:hover{
 color:#2185c4;
 display:block;
 text-decoration:underline;
