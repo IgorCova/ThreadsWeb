@@ -1,0 +1,102 @@
+html,body{
+	height:100%;
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: block;
+  border: 1px solid red;
+  width:100%;
+  position:fixed;
+  height:73px;
+}
+
+@font-face {
+    font-family: latoRegular; /* Гарнитура шрифта */
+    src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+   }
+
+header .clear{clear:both;}
+
+header #navigation nav{
+float:left;
+width:44%;
+margin:0px;
+margin-top:10px;
+ }
+ 
+
+header #telegram {
+width:23%;
+float:right;
+ }
+ 
+ header #telegram span{
+  position:reletive;
+ }
+ 
+ header #telegram span a{
+position:absolute;
+margin-top:15px;
+
+}
+ 
+ 
+header #telegram span a:last-child{
+position:absolute;
+margin-left:45px;
+margin-top:25px;
+text-decoration:none;
+color:#2185c4;
+}
+
+header #telegram span a:last-child:hover{
+color:#2185c4;
+display:block;
+text-decoration:underline;
+}
+
+header #logo{
+float:left;
+}
+
+header #logo div{
+position:relative;
+}
+
+header #logo span{
+position:absolute;
+color:#2185c4;
+font-weight:bold;
+font-size:200%;
+margin-top:15px;
+}
+
+header #navigation nav ul {
+margin-left:70px;
+}
+
+header #telegram nav ul {
+margin-right:0px;
+}
+
+
+header nav ul li{
+float:left;
+list-style:none;
+margin-left:27px;
+}
+
+ header nav ul li a{
+color:#2185c4;
+display:block;
+text-decoration:none;
+}
+
+ header nav ul li a:hover{
+color:#2185c4;
+display:block;
+text-decoration:underline;
+}
