@@ -5,12 +5,12 @@ html,body{
 	font-family:Arial, Helvetica, sans-serif;
 }
 
-header {
+#conteiner header {
   display: block;
   border-bottom:#cacaca 1px solid ;
    box-shadow: 0px 0px 4px 1px #cacaca;
   width:100%;
-  position:fixed;
+  
   height:73px;
 }
 
@@ -32,34 +32,35 @@ header {
    
   
 
-header .clear{clear:both;}
+#conteiner header .clear{clear:both;}
 
-header #navigation nav{
+#conteiner header #navigation nav{
+	border:solid 1px blue;
 float:left;
-width:44%;
+width:30%;
 margin:0px;
 margin-top:10px;
  }
  
 
-header #telegram {
-width:23%;
+#conteiner header #telegram {
+	border:solid 1px green;
+width:30%;
 float:right;
  }
  
- header #telegram span{
-  position:reletive;
+#conteiner header #telegram span{
+  
  }
  
- header #telegram span a{
-position:absolute;
+#conteiner header #telegram span a{
+
 margin-top:15px;
 
 }
  
  
-header #telegram span a:last-child{
-position:absolute;
+#conteiner header #telegram span a:last-child{
 margin-left:45px;
 margin-top:25px;
 text-decoration:none;
@@ -68,22 +69,24 @@ font-family: LatoLight; /* Гарнитура шрифта */
 src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
 }
 
-header #telegram span a:last-child:hover{
+#conteiner header #telegram span a:last-child:hover{
 color:#2185c4;
 display:block;
 text-decoration:underline;
 }
 
-header #logo{
+#conteiner header #logo{text-align:center;
+border:solid 1px red;
+	width:39%;
 float:left;
 }
 
-header #logo div{
-position:relative;
+#conteiner header #logo div{
+
 }
 
-header #logo span{
-position:absolute;
+#conteiner header #logo span{
+
 color:#2185c4;
 font-weight:bold;
 font-size:250%;
@@ -92,22 +95,22 @@ font-family: Comfortaa-Bold; /* Гарнитура шрифта */
 src: url(../fonts/Comfortaa-Bold.ttf); /* Путь к файлу со шрифтом */
 }
 
-header #navigation nav ul {
+#conteiner header #navigation nav ul {
 margin-left:70px;
 }
 
-header #telegram nav ul {
+#conteiner header #telegram nav ul {
 margin-right:0px;
 }
 
 
-header #navigation nav ul li{
+#conteiner header #navigation nav ul li{
 float:left;
 list-style:none;
 margin-left:27px;
 }
 
-header #navigation nav ul li a:first-child{
+#conteiner header #navigation nav ul li a:first-child{
 font-family: LatoRegular; /* Гарнитура шрифта */
 src: url(../fonts/LatoRegular.ttf); /* Путь к файлу со шрифтом */
 color:#2185c4;
@@ -115,7 +118,7 @@ display:block;
 text-decoration:none;
 }
 
-header #navigation nav ul li a .last{
+#conteiner header #navigation nav ul li a .last{
 font-family: LatoLight; /* Гарнитура шрифта */
 src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
 color:#2185c4;
@@ -123,8 +126,23 @@ display:block;
 text-decoration:none;
 }
 
- header #navigation nav ul li a:hover{
+#conteiner header #navigation nav ul li a:hover{
 color:#2185c4;
 display:block;
 text-decoration:underline;
+}
+
+ #communities{
+margin-top:50px;
+width:100%
+}
+
+ #communities div span {
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+color:#2185c4;
+font-size:160%;
+}
+
+#communities div {text-align:center;
 }
