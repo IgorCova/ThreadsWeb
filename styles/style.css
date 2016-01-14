@@ -10,7 +10,7 @@ html,body{
   border-bottom:#cacaca 1px solid ;
    box-shadow: 0px 0px 4px 1px #cacaca;
   width:100%;
-  
+  position:fixed;
   height:73px;
 }
 
@@ -35,35 +35,35 @@ html,body{
 #conteiner header .clear{clear:both;}
 
 #conteiner header #navigation nav{
-	border:solid 1px blue;
 float:left;
 width:30%;
-margin:0px;
-margin-top:10px;
+height:50px;
  }
  
 
 #conteiner header #telegram {
-	border:solid 1px green;
 width:30%;
 float:right;
+height:50px;
  }
  
 #conteiner header #telegram span{
-  
+ position:relative;
  }
  
-#conteiner header #telegram span a{
-
-margin-top:15px;
-
+#conteiner header #telegram span a:first-child{
+float:right;
+margin-top:10px;
+margin-right:250px;
 }
  
  
 #conteiner header #telegram span a:last-child{
-margin-left:45px;
-margin-top:25px;
+margin-right:-115px;
+float:right;
+margin-top:18px;
 text-decoration:none;
+font-size:110%;
 color:#2185c4;
 font-family: LatoLight; /* Гарнитура шрифта */
 src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
@@ -75,9 +75,9 @@ display:block;
 text-decoration:underline;
 }
 
-#conteiner header #logo{text-align:center;
-border:solid 1px red;
-	width:39%;
+#conteiner header #logo{
+text-align:center;
+width:40%;
 float:left;
 }
 
@@ -86,7 +86,6 @@ float:left;
 }
 
 #conteiner header #logo span{
-
 color:#2185c4;
 font-weight:bold;
 font-size:250%;
@@ -96,17 +95,14 @@ src: url(../fonts/Comfortaa-Bold.ttf); /* Путь к файлу со шрифт
 }
 
 #conteiner header #navigation nav ul {
-margin-left:70px;
+margin-left:130px;
 }
-
-#conteiner header #telegram nav ul {
-margin-right:0px;
-}
-
 
 #conteiner header #navigation nav ul li{
+font-size:110%;
 float:left;
 list-style:none;
+margin-top:5px;
 margin-left:27px;
 }
 
@@ -132,8 +128,10 @@ display:block;
 text-decoration:underline;
 }
 
+
+
  #communities{
-margin-top:50px;
+ padding-top:100px;
 width:100%
 }
 
