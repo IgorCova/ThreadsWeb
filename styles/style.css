@@ -8,10 +8,11 @@ html,body{
 #conteiner header {
   display: block;
   border-bottom:#cacaca 1px solid ;
-   box-shadow: 0px 0px 4px 1px #cacaca;
+  box-shadow: 0px 0px 4px 1px #cacaca;
   width:100%;
   position:fixed;
   height:73px;
+  background-color:#ffffff;
 }
 
 @font-face {
@@ -32,7 +33,7 @@ html,body{
    
   
 
-#conteiner header .clear{clear:both;}
+.clear{clear:both;}
 
 #conteiner header #navigation nav{
 float:left;
@@ -81,10 +82,6 @@ width:40%;
 float:left;
 }
 
-#conteiner header #logo div{
-
-}
-
 #conteiner header #logo span{
 color:#2185c4;
 font-weight:bold;
@@ -130,7 +127,7 @@ text-decoration:underline;
 
 
 
- #communities{
+#communities{
  padding-top:100px;
 width:100%
 }
@@ -142,5 +139,34 @@ color:#2185c4;
 font-size:160%;
 }
 
-#communities div {text-align:center;
+#communities div {
+text-align:center;
+}
+
+#crossplatform{
+width:70%;
+margin:222px auto 0;
+}
+
+#crossplatform .android{
+width:30%;
+float:left;
+}
+
+#crossplatform .IPhoneIPad{
+width:39%;
+ float:left;
+}
+
+#crossplatform .IPhoneIPad div{
+ text-align:center;
+}
+
+#crossplatform .WindowsPhone{
+width:30%;
+float:right;
+}
+
+#crossplatform .WindowsPhone div{
+text-align:right;
 }
