@@ -15,6 +15,10 @@ html,body{
   background-color:#ffffff;
 }
 
+#conteiner header wrapper {
+width:700px;
+}
+
 @font-face {
     font-family: LatoLight; /* Гарнитура шрифта */
     src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
@@ -152,14 +156,27 @@ margin:222px auto 0;
 width:30%;
 float:left;
 }
+#crossplatform .android div span{
+margin-left:60px;
+color:#757575;
+}
+
 
 #crossplatform .IPhoneIPad{
-width:39%;
- float:left;
+width:40%;
+float:left;
+}
+
+#crossplatform .IPhoneIPad div span{
+color:#2185c4;
 }
 
 #crossplatform .IPhoneIPad div{
- text-align:center;
+text-align:center;
+}
+
+#crossplatform .IPhoneIPad div img{
+margin-left:5px;
 }
 
 #crossplatform .WindowsPhone{
@@ -167,6 +184,15 @@ width:30%;
 float:right;
 }
 
-#crossplatform .WindowsPhone div{
+#crossplatform .WindowsPhone div > div{
 text-align:right;
+}
+
+#crossplatform .WindowsPhone div img{
+text-align:left;
+margin-right:45px;
+}
+
+#crossplatform .WindowsPhone div:last-child span{
+color:#757575;
 }
