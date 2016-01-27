@@ -281,7 +281,7 @@ text-align:center;
 }
 
 #conteiner #WhuComm .IPhoneIPad div img{
-margin-left:5px;
+
 }
 
 #conteiner #WhuComm .WindowsPhone{
@@ -295,14 +295,14 @@ border-radius:5px 5px 5px 5px;
 }
 
 #conteiner #WhuComm .WindowsPhone div div:first-child{
-text-align:right;
+text-align:center;
 }
 
 #conteiner #WhuComm .WindowsPhone div div:last-child {
 text-align:center;
 }
 
-#conteiner #WhuComm .WindowsPhone div div img{
+#conteiner #WhuComm .WindowsPhone div div {
 text-align:center;
 
 }
