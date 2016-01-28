@@ -254,9 +254,18 @@ margin:100px auto 0;
 width:30%;
 float:left;
 }
-#conteiner #WhuComm .android div div span{
+#conteiner #WhuComm .android div div:last-child span{
 color:#757575;
 text-align:center;
+}
+
+#conteiner #WhuComm .android  div div:nth-child(2) span{
+font-size:200%;
+color:#757575;
+}
+
+#conteiner #WhuComm .android div div{
+padding-top:10px;
 }
 
 #conteiner #WhuComm .android > div{
@@ -266,12 +275,22 @@ text-align:center;
 }
 
 #conteiner #WhuComm .IPhoneIPad{
-width:40%;
+margin-left:40px;
+width:30%;
 float:left;
 }
 
-#conteiner #WhuComm .IPhoneIPad div span{
-color:#2185c4;
+#conteiner #WhuComm .IPhoneIPad div div{
+padding-top:10px;
+}
+
+#conteiner #WhuComm .IPhoneIPad div div:last-child span{
+color:#757575;
+}
+
+#conteiner #WhuComm .IPhoneIPad  div div:nth-child(2) span{
+font-size:200%;
+color:#757575;
 }
 
 #conteiner #WhuComm .IPhoneIPad > div{
@@ -289,6 +308,10 @@ width:30%;
 float:right;
 }
 
+#conteiner #WhuComm .WindowsPhone div div{
+padding-top:10px;
+}
+
 #conteiner #WhuComm .WindowsPhone > div{
 border:#d8d8d8 1px solid; 
 border-radius:5px 5px 5px 5px;
@@ -304,10 +327,14 @@ text-align:center;
 
 #conteiner #WhuComm .WindowsPhone div div {
 text-align:center;
-
 }
 
-#conteiner #WhuComm .WindowsPhone div:last-child span{
+#conteiner #WhuComm .WindowsPhone div div:nth-child(2) span{
+font-size:200%;
+color:#757575;
+}
+
+#conteiner #WhuComm .WindowsPhone div div:last-child span{
 color:#757575;
 }
 /*контент*/
