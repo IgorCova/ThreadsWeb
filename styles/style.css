@@ -56,14 +56,17 @@ width:30%;
 }
 
 #conteiner header .wrapper nav ul{
-margin-top:24px;
+margin-top:27px;
 }
 
 #conteiner header .wrapper nav ul li{
 list-style:none;
 float:left;
 color:#2185c4;
-margin-left:20px;
+}
+
+#conteiner header .wrapper nav ul li:last-child{
+padding-left:30px;
 }
 
 #conteiner header .wrapper nav ul li a span{
@@ -73,6 +76,7 @@ color:#2185c4;
 
 #conteiner header .wrapper nav ul li a{
 text-decoration:none;
+font-size:120%;
 }
 
 #conteiner header .wrapper nav ul li a span:hover{
@@ -97,11 +101,12 @@ width:39%;
 text-align:center;
 }
 
-#conteiner header .wrapper .comm span{
+#conteiner header .wrapper .comm div{
 font-family: Comfortaa-Bold; /* Гарнитура шрифта */
 src: url(../fonts/Comfortaa-Bold.ttf); /* Путь к файлу со шрифтом */
 color:#2185c4;
-font-size:250%;
+font-size:310%;
+margin-top:1px;
 }
 
 #conteiner header .wrapper .telegram{
@@ -116,16 +121,17 @@ position:reletive;
 
 #conteiner header .wrapper .telegram span a:first-child{
 position:absolute;
-margin-top:12px;
+margin-top:18px;
 margin-left:70px;
 }
 
 #conteiner header .wrapper .telegram span a:last-child{
 position:absolute;
-margin-top:24px;
-margin-left:115px;
+margin-top:26px;
+margin-left:118px;
 text-decoration:none;
 color:#2185c4;
+font-size:140%;
 font-family: LatoLight; /* Гарнитура шрифта */
 src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
 }
@@ -166,9 +172,13 @@ margin:222px auto 0;
 width:30%;
 float:left;
 }
+
 #conteiner #crossplatform .android div span{
-margin-left:60px;
+margin-top:10px;
+margin-left:53px;
 color:#757575;
+font-size:150%;
+display:block;
 }
 
 
@@ -179,6 +189,10 @@ float:left;
 
 #conteiner #crossplatform .IPhoneIPad div span{
 color:#2185c4;
+font-size:150%;
+display:block;
+margin-top:10px;
+margin-left:10px;
 }
 
 #conteiner #crossplatform .IPhoneIPad div{
@@ -200,11 +214,15 @@ text-align:right;
 
 #conteiner #crossplatform .WindowsPhone div img{
 text-align:left;
-margin-right:45px;
+margin-right:110px;
 }
 
 #conteiner #crossplatform .WindowsPhone div:last-child span{
 color:#757575;
+font-size:150%;
+display:block;
+margin-top:10px;
+
 }
 /*контент*/
 
@@ -216,9 +234,10 @@ margin:0 auto;
 
 #conteiner #platform div span {
 font-family: latoRegular; /* Гарнитура шрифта */
-src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
 color:#000000;
-font-size:160%;
+font-size:200%;
+
 }
 
 #conteiner #platform div {
@@ -236,7 +255,9 @@ float:left;
 }
 
 #conteiner #crossplm .IPhoneIPad div span{
-font-size:200%;
+display:block;
+margin-top:10px;
+font-size:170%;
 color:#737373;
 }
 
@@ -244,16 +265,33 @@ color:#737373;
 text-align:center;
 }
 
-/*контент*/
+#conteiner #WhyComm{
+padding-top:100px;
+width:800px;
+margin:0 auto;
+}
+
+#conteiner #WhyComm div {
+text-align:center;
+}
+
+#conteiner #WhyComm div span {
+font-family: latoRegular; /* Гарнитура шрифта */
+src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+color:#757575;
+font-size:160%;
+}
+
 #conteiner #WhuComm{
 width:800px;
-margin:100px auto 0;
+margin:20px auto 0;
 }
 
 #conteiner #WhuComm .android{
 width:30%;
 float:left;
 }
+
 #conteiner #WhuComm .android div div:last-child span{
 color:#757575;
 text-align:center;
@@ -266,6 +304,10 @@ color:#757575;
 
 #conteiner #WhuComm .android div div{
 padding-top:10px;
+}
+
+#conteiner #WhuComm .android div div:last-child {
+padding-bottom:10px;
 }
 
 #conteiner #WhuComm .android > div{
@@ -299,8 +341,8 @@ border-radius:5px 5px 5px 5px;
 text-align:center;
 }
 
-#conteiner #WhuComm .IPhoneIPad div img{
-
+#conteiner #WhuComm .IPhoneIPad div div:last-child {
+padding-bottom:10px;
 }
 
 #conteiner #WhuComm .WindowsPhone{
@@ -323,6 +365,7 @@ text-align:center;
 
 #conteiner #WhuComm .WindowsPhone div div:last-child {
 text-align:center;
+padding-bottom:10px;
 }
 
 #conteiner #WhuComm .WindowsPhone div div {
@@ -338,3 +381,101 @@ color:#757575;
 color:#757575;
 }
 /*контент*/
+
+#conteiner #WhuCmm{
+width:800px;
+margin:80px auto 0;
+}
+
+#conteiner #WhuCmm .android{
+width:30%;
+float:left;
+}
+#conteiner #WhuCmm .android div div:last-child span{
+color:#757575;
+text-align:center;
+}
+
+#conteiner #WhuCmm .android  div div:nth-child(2) span{
+font-size:200%;
+color:#757575;
+}
+
+#conteiner #WhuCmm .android div div{
+padding-top:10px;
+}
+
+#conteiner #WhuCmm .android div div:last-child {
+padding-bottom:10px;
+}
+
+#conteiner #WhuCmm .android > div{
+border:#d8d8d8 1px solid; 
+border-radius:5px 5px 5px 5px;	
+text-align:center;
+}
+
+#conteiner #WhuCmm .IPhoneIPad{
+margin-left:40px;
+width:30%;
+float:left;
+}
+
+#conteiner #WhuCmm .IPhoneIPad div div{
+padding-top:10px;
+}
+
+#conteiner #WhuCmm .IPhoneIPad div div:last-child span{
+color:#757575;
+}
+
+#conteiner #WhuCmm .IPhoneIPad  div div:nth-child(2) span{
+font-size:200%;
+color:#757575;
+}
+
+#conteiner #WhuCmm .IPhoneIPad > div{
+border:#d8d8d8 1px solid; 
+border-radius:5px 5px 5px 5px;	
+text-align:center;
+}
+
+#conteiner #WhuCmm .IPhoneIPad div div:last-child {
+padding-bottom:10px;
+}
+
+#conteiner #WhuCmm .WindowsPhone{
+width:30%;
+float:right;
+}
+
+#conteiner #WhuCmm .WindowsPhone div div{
+padding-top:10px;
+}
+
+#conteiner #WhuCmm .WindowsPhone > div{
+border:#d8d8d8 1px solid; 
+border-radius:5px 5px 5px 5px;
+}
+
+#conteiner #WhuCmm .WindowsPhone div div:first-child{
+text-align:center;
+}
+
+#conteiner #WhuCmm .WindowsPhone div div:last-child {
+text-align:center;
+padding-bottom:10px;
+}
+
+#conteiner #WhuCmm .WindowsPhone div div {
+text-align:center;
+}
+
+#conteiner #WhuCmm .WindowsPhone div div:nth-child(2) span{
+font-size:200%;
+color:#757575;
+}
+
+#conteiner #WhuCmm .WindowsPhone div div:last-child span{
+color:#757575;
+}
