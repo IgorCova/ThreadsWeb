@@ -46,7 +46,7 @@ height:100%;
 
 #conteiner header .wrapper{
 margin:0 auto;
-width:1150px;
+width:1080px;
 height:71px;
 }
 
@@ -56,7 +56,7 @@ width:30%;
 }
 
 #conteiner header .wrapper nav ul{
-margin-top:20px;
+margin-top:18px;
 }
 
 #conteiner header .wrapper nav ul li{
@@ -76,7 +76,7 @@ color:#2185c4;
 
 #conteiner header .wrapper nav ul li a{
 text-decoration:none;
-font-size:100%;
+font-size:103%;
 }
 
 #conteiner header .wrapper nav ul li a span:hover{
@@ -121,17 +121,17 @@ position:reletive;
 
 #conteiner header .wrapper .telegram span a:first-child{
 position:absolute;
-margin-top:13px;
-margin-left:190px;
+margin-top:11px;
+margin-left:180px;
 }
 
 #conteiner header .wrapper .telegram span a:last-child{
 position:absolute;
-margin-top:20px;
-margin-left:230px;
+margin-top:18px;
+margin-left:220px;
 text-decoration:none;
 color:#2185c4;
-font-size:100%;
+font-size:102%;
 font-family: LatoLight; /* Гарнитура шрифта */
 src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
 }
