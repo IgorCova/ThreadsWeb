@@ -135,6 +135,10 @@ font-size:100%;
 font-family: LatoLight; /* Гарнитура шрифта */
 src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
 }
+
+#conteiner header .wrapper .telegram span a:last-child:hover{
+text-decoration:underline;
+}
 /*шапка сайта*/
 
 
