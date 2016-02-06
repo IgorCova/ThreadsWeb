@@ -178,8 +178,8 @@ float:left;
 }
 
 #conteiner #crossplatform .android div span{
+text-align:center;
 margin-top:10px;
-margin-left:53px;
 color:#757575;
 font-size:150%;
 display:block;
@@ -226,6 +226,7 @@ color:#757575;
 font-size:150%;
 display:block;
 margin-top:10px;
+text-align:center;
 
 }
 /*контент*/
