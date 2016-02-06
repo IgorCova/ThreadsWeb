@@ -14,10 +14,10 @@ height:100%;
 #conteiner header {
   display: block;
   border-bottom:#cacaca 1px solid;
-  box-shadow: 0px 0px 4px 1px #cacaca;
+  box-shadow: 0px 0px 1px 0px #cacaca;
   width:100%;
   position:fixed;
-  height:73px;
+  height:53px;
   background-color:#ffffff;
 }
 
@@ -46,7 +46,7 @@ height:100%;
 
 #conteiner header .wrapper{
 margin:0 auto;
-width:900px;
+width:1150px;
 height:71px;
 }
 
@@ -56,7 +56,7 @@ width:30%;
 }
 
 #conteiner header .wrapper nav ul{
-margin-top:27px;
+margin-top:20px;
 }
 
 #conteiner header .wrapper nav ul li{
@@ -76,7 +76,7 @@ color:#2185c4;
 
 #conteiner header .wrapper nav ul li a{
 text-decoration:none;
-font-size:120%;
+font-size:100%;
 }
 
 #conteiner header .wrapper nav ul li a span:hover{
@@ -105,7 +105,7 @@ text-align:center;
 font-family: Comfortaa-Bold; /* Гарнитура шрифта */
 src: url(../fonts/Comfortaa-Bold.ttf); /* Путь к файлу со шрифтом */
 color:#2185c4;
-font-size:310%;
+font-size:230%;
 margin-top:1px;
 }
 
@@ -121,17 +121,17 @@ position:reletive;
 
 #conteiner header .wrapper .telegram span a:first-child{
 position:absolute;
-margin-top:18px;
-margin-left:70px;
+margin-top:13px;
+margin-left:190px;
 }
 
 #conteiner header .wrapper .telegram span a:last-child{
 position:absolute;
-margin-top:26px;
-margin-left:118px;
+margin-top:20px;
+margin-left:230px;
 text-decoration:none;
 color:#2185c4;
-font-size:140%;
+font-size:100%;
 font-family: LatoLight; /* Гарнитура шрифта */
 src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
 }
@@ -164,8 +164,8 @@ text-align:center;
 
 /*контент*/
 #conteiner #crossplatform{
-width:800px;
-margin:222px auto 0;
+width:1000px;
+margin:50px auto 0;
 }
 
 #conteiner #crossplatform .android{
