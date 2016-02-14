@@ -77,6 +77,7 @@ color:#2185c4;
 #conteiner header .wrapper nav ul li a{
 text-decoration:none;
 font-size:103%;
+display:block;
 }
 
 #conteiner header .wrapper nav ul li a span:hover{
@@ -143,15 +144,12 @@ text-decoration:underline;
 
 
 
-
-
-/*communities*/
+/*Create your community here*/
 #conteiner #communities{
 padding-top:100px;
 width:900px;
 margin:0 auto;
 }
-/*communities*/
 
 #conteiner #communities div span {
 font-family: LatoLight; /* Гарнитура шрифта */
@@ -163,18 +161,39 @@ font-size:160%;
 #conteiner #communities div {
 text-align:center;
 }
-/*communities*/
+/*Create your community here*/
 
 
 /*контент*/
 #conteiner #crossplatform{
-width:1000px;
+width:1100px;
 margin:50px auto 0;
 }
 
 #conteiner #crossplatform .android{
-width:30%;
 float:left;
+border-radius:10px;
+-moz-border-radius: 10px; /* Firefox */
+-webkit-border-radius: 10px; /* Safari, Chrome */
+border-radius: 10px; /* CSS3 */
+behavior: url(PIE.htc); /* IE < 9 */
+padding:15px 15px;
+margin-left:0px;
+}
+
+#conteiner #crossplatform .android div{
+text-align:center;
+}
+
+#conteiner #crossplatform .android:hover{
+background-color:#2185c4;
+cursor:pointer;
+}
+
+#conteiner #crossplatform .android:hover > div:last-child span{
+background-color:#2185c4;
+cursor:pointer;
+color:#ffffff;
 }
 
 #conteiner #crossplatform .android div span{
@@ -185,18 +204,50 @@ font-size:150%;
 display:block;
 }
 
+#conteiner #crossplatform .android div span:hover{
+color:#ffffff;
+}
+
 
 #conteiner #crossplatform .IPhoneIPad{
-width:40%;
 float:left;
+padding:15px 17px 15px 10px;
+margin-left:60px;
+border-radius:10px;
+-moz-border-radius: 10px; /* Firefox */
+-webkit-border-radius: 10px; /* Safari, Chrome */
+border-radius: 10px; /* CSS3 */
+behavior: url(PIE.htc); /* IE < 9 */
 }
+
+#conteiner #crossplatform .IPhoneIPad a{
+display: block; /* Ссылка как блочный элемент */
+text-decoration:none;
+color:ffffff;
+}
+
+
+#conteiner #crossplatform .IPhoneIPad a:hover div:last-child span{
+color:ffffff;
+}
+
+#conteiner #crossplatform .IPhoneIPad:hover{
+background-color:#2185c4;
+cursor:pointer;
+}
+
+#conteiner #crossplatform .IPhoneIPad:hover > div:last-child span{
+background-color:#2185c4;
+cursor:pointer;
+color:#ffffff;
+}
+
 
 #conteiner #crossplatform .IPhoneIPad div span{
 color:#2185c4;
 font-size:150%;
 display:block;
 margin-top:10px;
-margin-left:10px;
 }
 
 #conteiner #crossplatform .IPhoneIPad div{
@@ -208,18 +259,31 @@ margin-left:5px;
 }
 
 #conteiner #crossplatform .WindowsPhone{
-width:30%;
 float:right;
+padding:15px 15px;
+margin-left:15px;
+border-radius:10px;
+-moz-border-radius: 10px; /* Firefox */
+-webkit-border-radius: 10px; /* Safari, Chrome */
+border-radius: 10px; /* CSS3 */
+behavior: url(PIE.htc); /* IE < 9 */
 }
 
-#conteiner #crossplatform .WindowsPhone div > div{
-text-align:right;
+#conteiner #crossplatform .WindowsPhone div{
+text-align:center; 
 }
 
-#conteiner #crossplatform .WindowsPhone div img{
-text-align:left;
-margin-right:110px;
+#conteiner #crossplatform .WindowsPhone:hover{
+background-color:#2185c4;
+cursor:pointer;
 }
+
+#conteiner #crossplatform .WindowsPhone:hover > div:last-child span{
+background-color:#2185c4;
+cursor:pointer;
+color:#ffffff;
+}
+
 
 #conteiner #crossplatform .WindowsPhone div:last-child span{
 color:#757575;
@@ -227,9 +291,8 @@ font-size:150%;
 display:block;
 margin-top:10px;
 text-align:center;
-
 }
-/*контент*/
+
 
 #conteiner #platform{
 padding-top:50px;
@@ -239,7 +302,7 @@ margin:0 auto;
 
 #conteiner #platform div span {
 font-family: latoRegular; /* Гарнитура шрифта */
-    src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
 color:#000000;
 font-size:200%;
 
@@ -250,13 +313,27 @@ text-align:center;
 }
 
 #conteiner #crossplm{
-width:800px;
+width:650px;
 margin:50px auto 0;
 }
 
 #conteiner #crossplm .IPhoneIPad{
 width:100%;
 float:left;
+padding:15px;
+border-radius:10px 10px 10px 10px;
+}
+
+#conteiner #crossplm .IPhoneIPad:hover{
+background-color:#2185c4;
+cursor:pointer;
+color:#ffffff;
+}
+
+#conteiner #crossplm .IPhoneIPad:hover > div span{
+background-color:#2185c4;
+cursor:pointer;
+color:#ffffff;
 }
 
 #conteiner #crossplm .IPhoneIPad div span{
@@ -264,6 +341,10 @@ display:block;
 margin-top:10px;
 font-size:170%;
 color:#737373;
+}
+
+#conteiner #crossplm .IPhoneIPad div span:hover{
+color:#ffffff;
 }
 
 #conteiner #crossplm .IPhoneIPad div{
@@ -485,3 +566,5 @@ color:#757575;
 #conteiner #WhuCmm .WindowsPhone div div:last-child span{
 color:#757575;
 }
+
+/*контент*/
