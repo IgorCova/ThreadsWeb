@@ -209,7 +209,7 @@ color:#ffffff;
 }
 
 
-#conteiner #crossplatform .IPhoneIPad{
+#conteiner #crossplatform a .IPhoneIPad{
 float:left;
 padding:15px 17px 15px 10px;
 margin-left:60px;
@@ -220,41 +220,41 @@ border-radius: 10px; /* CSS3 */
 behavior: url(PIE.htc); /* IE < 9 */
 }
 
-#conteiner #crossplatform .IPhoneIPad a{
+#conteiner #crossplatform a .IPhoneIPad {
 display: block; /* Ссылка как блочный элемент */
 text-decoration:none;
 color:ffffff;
 }
 
 
-#conteiner #crossplatform .IPhoneIPad a:hover div:last-child span{
+#conteiner #crossplatform a:hover .IPhoneIPad  div:last-child span{
 color:ffffff;
 }
 
-#conteiner #crossplatform .IPhoneIPad:hover{
+#conteiner #crossplatform a .IPhoneIPad:hover{
 background-color:#2185c4;
 cursor:pointer;
 }
 
-#conteiner #crossplatform .IPhoneIPad:hover > div:last-child span{
+#conteiner #crossplatform a .IPhoneIPad:hover > div:last-child span{
 background-color:#2185c4;
 cursor:pointer;
 color:#ffffff;
 }
 
 
-#conteiner #crossplatform .IPhoneIPad div span{
+#conteiner #crossplatform a .IPhoneIPad div span{
 color:#2185c4;
 font-size:150%;
 display:block;
 margin-top:10px;
 }
 
-#conteiner #crossplatform .IPhoneIPad div{
+#conteiner #crossplatform a .IPhoneIPad div{
 text-align:center;
 }
 
-#conteiner #crossplatform .IPhoneIPad div img{
+#conteiner #crossplatform a .IPhoneIPad div img{
 margin-left:5px;
 }
 
