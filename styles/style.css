@@ -37,8 +37,7 @@ height:100%;
     font-family: Comfortaa-Bold; /* Гарнитура шрифта */
     src: url(../fonts/Comfortaa-Bold.ttf); /* Путь к файлу со шрифтом */
    }
-   
-  
+    
 
 .clear{clear:both;}
 
@@ -46,17 +45,19 @@ height:100%;
 
 #conteiner header .wrapper{
 margin:0 auto;
-width:1080px;
-height:71px;
+width:1050px;
+height:51px;
 }
 
 #conteiner header .wrapper nav{
+margin:0px;
 float:left;
 width:30%;
 }
 
 #conteiner header .wrapper nav ul{
 margin-top:18px;
+margin-left:-42px;
 }
 
 #conteiner header .wrapper nav ul li{
@@ -116,20 +117,21 @@ width:30%;
 height:70px;
 }
 
-#conteiner header .wrapper .telegram span{
-position:reletive;
+#conteiner header .wrapper .telegram div{
+float:right;
 }
 
-#conteiner header .wrapper .telegram span a:first-child{
-position:absolute;
-margin-top:11px;
-margin-left:180px;
+#conteiner header .wrapper .telegram div a:last-child{
+display:block;
+float:right;
+margin-top:10px;
+margin-right:10px;
 }
 
-#conteiner header .wrapper .telegram span a:last-child{
-position:absolute;
+#conteiner header .wrapper .telegram div a:first-child{
 margin-top:18px;
-margin-left:220px;
+display:block;
+float:right;
 text-decoration:none;
 color:#2185c4;
 font-size:102%;
@@ -137,7 +139,7 @@ font-family: LatoLight; /* Гарнитура шрифта */
 src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
 }
 
-#conteiner header .wrapper .telegram span a:last-child:hover{
+#conteiner header .wrapper .telegram div a:last-child:hover{
 text-decoration:underline;
 }
 /*шапка сайта*/
@@ -166,7 +168,7 @@ text-align:center;
 
 /*контент*/
 #conteiner #crossplatform{
-width:1100px;
+width:1050px;
 margin:50px auto 0;
 }
 
@@ -178,7 +180,6 @@ border-radius:10px;
 border-radius: 10px; /* CSS3 */
 behavior: url(PIE.htc); /* IE < 9 */
 padding:15px 15px;
-margin-left:0px;
 }
 
 #conteiner #crossplatform .android div{
@@ -212,7 +213,7 @@ color:#ffffff;
 #conteiner #crossplatform a .IPhoneIPad{
 float:left;
 padding:15px 17px 15px 10px;
-margin-left:60px;
+margin-left:35px;
 border-radius:10px;
 -moz-border-radius: 10px; /* Firefox */
 -webkit-border-radius: 10px; /* Safari, Chrome */
@@ -261,7 +262,6 @@ margin-left:5px;
 #conteiner #crossplatform .WindowsPhone{
 float:right;
 padding:15px 15px;
-margin-left:15px;
 border-radius:10px;
 -moz-border-radius: 10px; /* Firefox */
 -webkit-border-radius: 10px; /* Safari, Chrome */
