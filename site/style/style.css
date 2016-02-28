@@ -1,14 +1,8 @@
-html,body{
-	height:100%;
-	margin:0;
-	padding:0;
-	font-family:Arial, Helvetica, sans-serif;
-	height:100%;
-}
-
-#conteiner{
-width:100%;
-height:100%;
+body, html {
+margin:0px;
+padding:0px;
+height: 100%;
+font-family:Arial, Helvetica, sans-serif, "Times New Roman";
 }
 
 #conteiner header {
@@ -21,6 +15,9 @@ height:100%;
   background-color:#ffffff;
 }
 
+
+.clear{width:100%;
+	clear:both;}
 
 @font-face {
     font-family: LatoLight; /* Гарнитура шрифта */
@@ -37,14 +34,20 @@ height:100%;
     font-family: Comfortaa-Bold; /* Гарнитура шрифта */
     src: url(../fonts/Comfortaa-Bold.ttf); /* Путь к файлу со шрифтом */
    }
-    
 
-.clear{clear:both;}
+* html #conteiner{
+height: 100%;
+}
 
-/*шапка сайта*/
+#conteiner {
+min-height: 100%;
+
+}
+
 
 #conteiner header .wrapper{
 margin:0 auto;
+text-align:center;
 width:1050px;
 height:51px;
 }
@@ -151,6 +154,7 @@ text-decoration:underline;
 padding-top:100px;
 width:900px;
 margin:0 auto;
+text-align:center;
 }
 
 #conteiner #communities div span {
@@ -170,6 +174,7 @@ text-align:center;
 #conteiner #crossplatform{
 width:1050px;
 margin:50px auto 0;
+text-align:center;
 }
 
 #conteiner #crossplatform .android{
@@ -298,6 +303,7 @@ text-align:center;
 padding-top:50px;
 width:900px;
 margin:0 auto;
+text-align:center;
 }
 
 #conteiner #platform div span {
@@ -315,11 +321,11 @@ text-align:center;
 #conteiner #crossplm{
 width:650px;
 margin:50px auto 0;
+text-align:center;
 }
 
 #conteiner #crossplm .IPhoneIPad{
 width:100%;
-float:left;
 padding:15px;
 border-radius:10px 10px 10px 10px;
 }
@@ -351,17 +357,18 @@ color:#ffffff;
 text-align:center;
 }
 
-#conteiner #WhyComm{
+#conteiner #WhyCommT{
 padding-top:100px;
 width:800px;
 margin:0 auto;
-}
-
-#conteiner #WhyComm div {
 text-align:center;
 }
 
-#conteiner #WhyComm div span {
+#conteiner #WhyCommT div {
+text-align:center;
+}
+
+#conteiner #WhyCommT div span {
 font-family: latoRegular; /* Гарнитура шрифта */
 src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
 color:#757575;
@@ -468,103 +475,222 @@ color:#757575;
 }
 /*контент*/
 
-#conteiner #WhuCmm{
+
+/*контент*/
+
+#conteiner #WhuCmmP{
 width:800px;
-margin:80px auto 0;
-margin-bottom:100px;
+margin:80px auto 00px;
+text-align:center;
 }
 
-#conteiner #WhuCmm .android{
+#conteiner #WhuCmmP .android{
 width:30%;
 float:left;
 }
-#conteiner #WhuCmm .android div div:last-child span{
+#conteiner #WhuCmmP .android div div:last-child span{
 color:#757575;
 text-align:center;
 }
 
-#conteiner #WhuCmm .android  div div:nth-child(2) span{
+#conteiner #WhuCmmP .android  div div:nth-child(2) span{
 font-size:200%;
 color:#757575;
 }
 
-#conteiner #WhuCmm .android div div{
+#conteiner #WhuCmmP .android div div{
 padding-top:10px;
 }
 
-#conteiner #WhuCmm .android div div:last-child {
+#conteiner #WhuCmmP .android div div:last-child {
 padding-bottom:10px;
 }
 
-#conteiner #WhuCmm .android > div{
+#conteiner #WhuCmmP .android > div{
 border:#d8d8d8 1px solid; 
 border-radius:5px 5px 5px 5px;	
 text-align:center;
 }
 
-#conteiner #WhuCmm .IPhoneIPad{
+#conteiner #WhuCmmP .IPhoneIPad{
 margin-left:40px;
 width:30%;
 float:left;
 }
 
-#conteiner #WhuCmm .IPhoneIPad div div{
+#conteiner #WhuCmmP .IPhoneIPad div div{
 padding-top:10px;
 }
 
-#conteiner #WhuCmm .IPhoneIPad div div:last-child span{
+#conteiner #WhuCmmP .IPhoneIPad div div:last-child span{
 color:#757575;
 }
 
-#conteiner #WhuCmm .IPhoneIPad  div div:nth-child(2) span{
+#conteiner #WhuCmmP .IPhoneIPad  div div:nth-child(2) span{
 font-size:200%;
 color:#757575;
 }
 
-#conteiner #WhuCmm .IPhoneIPad > div{
+#conteiner #WhuCmmP .IPhoneIPad > div{
 border:#d8d8d8 1px solid; 
 border-radius:5px 5px 5px 5px;	
 text-align:center;
 }
 
-#conteiner #WhuCmm .IPhoneIPad div div:last-child {
+#conteiner #WhuCmmP .IPhoneIPad div div:last-child {
 padding-bottom:10px;
 }
 
-#conteiner #WhuCmm .WindowsPhone{
+#conteiner #WhuCmmP .WindowsPhone{
 width:30%;
 float:right;
 }
 
-#conteiner #WhuCmm .WindowsPhone div div{
+#conteiner #WhuCmmP .WindowsPhone div div{
 padding-top:10px;
 }
 
-#conteiner #WhuCmm .WindowsPhone > div{
+#conteiner #WhuCmmP .WindowsPhone > div{
 border:#d8d8d8 1px solid; 
 border-radius:5px 5px 5px 5px;
 }
 
-#conteiner #WhuCmm .WindowsPhone div div:first-child{
+#conteiner #WhuCmmP .WindowsPhone div div:first-child{
 text-align:center;
 }
 
-#conteiner #WhuCmm .WindowsPhone div div:last-child {
+#conteiner #WhuCmmP .WindowsPhone div div:last-child {
 text-align:center;
 padding-bottom:10px;
 }
 
-#conteiner #WhuCmm .WindowsPhone div div {
+#conteiner #WhuCmmP .WindowsPhone div div {
 text-align:center;
 }
 
-#conteiner #WhuCmm .WindowsPhone div div:nth-child(2) span{
+#conteiner #WhuCmmP .WindowsPhone div div:nth-child(2) span{
 font-size:200%;
 color:#757575;
 }
 
-#conteiner #WhuCmm .WindowsPhone div div:last-child span{
+#conteiner #WhuCmmP .WindowsPhone div div:last-child span{
 color:#757575;
 }
 
+#conteiner #rasporka{
+	width:100%;
+	height:200px;	
+} 
+
 /*контент*/
+
+
+
+
+/*footer*/
+
+footer{
+height:100px;
+margin-top:-128px;
+clear:both;
+width:100%;
+}
+
+footer #footer{
+width:800px;
+clear:both;
+text-align:center;
+margin:0 auto;
+}
+
+footer #footer .rubrics{
+text-align:center;
+margin:0 auto;
+text-align:center;
+width:700px;
+margin-left:95px;
+}
+
+footer #footer .mobileApps{
+float:left;
+margin-right:110px;
+margin-left:60px;
+}
+
+footer #footer .DesktopApps{
+float:left;
+
+}
+
+footer #footer .About{
+float:left;
+margin-left:100px;
+}
+
+footer #footer .mobileApps span a{
+text-decoration:none;
+display:block;
+text-align:left;
+margin-bottom:5px;
+color:#a8a8a8;
+}
+
+footer #footer .mobileApps span:first-child a{
+text-decoration:none;
+font-weight:bold;
+color:#362f1f;
+margin-bottom:10px;
+font-family: latoRegular; /* Гарнитура шрифта */
+src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+}
+
+footer #footer .mobileApps span:last-child a{
+text-decoration:none;
+color:#318ec9;
+font-family: latoRegular; /* Гарнитура шрифта */
+src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+}
+
+footer #footer .DesktopApps span a{
+text-decoration:none;
+display:block;
+text-align:left;
+margin-bottom:5px;
+color:#a8a8a8;
+}
+
+footer #footer .DesktopApps span:first-child  a{
+text-decoration:none;
+font-weight:bold;
+color:#362f1f;
+margin-bottom:10px;
+font-family: latoRegular; /* Гарнитура шрифта */
+src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+}
+
+footer #footer .About span a{
+display:block;
+text-align:left;
+margin-bottom:5px;
+color:#a8a8a8;
+text-decoration:none;
+}
+
+footer #footer .About span:first-child  a{
+text-decoration:none;
+font-weight:bold;
+color:#362f1f;
+margin-bottom:10px;
+font-family: latoRegular; /* Гарнитура шрифта */
+src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+}
+
+footer #footer .About span:last-child   a{
+text-decoration:none;
+color:#318ec9;
+font-family: latoRegular; /* Гарнитура шрифта */
+src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+}
+
+/*footer*/
+

@@ -170,48 +170,91 @@ padding-bottom:10px;
 #conteiner #wrapper .iPhone ul{
 margin:0px;
 padding:0px;
-width:200px;
+-moz-border-radius:7px 7px 0px 0px; /* Firefox */
+-webkit-border-radius:7px 7px 0px 0px; /* Safari, Chrome */
+border-radius:7px 7px 0px 0px; /* CSS3 */
+behavior: url(PIE.htc); /* IE < 9 */
 }
 
 #conteiner #wrapper .iPhone ul li{
 list-style:none;
-padding-top:5px;
+position:relative;
 }
 
-#conteiner #wrapper .iPhone ul li:first-child{
-color:#2889c6;
+#conteiner #wrapper .iPhone ul li ul li a{
+padding:5px 10px;
+color:#ffffff;
+background-color:0071b0;
 font-family: latoRegular; /* Гарнитура шрифта */
 src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
-width:155px;
 text-align:center;
 font-size:100%;
 }
 
-#conteiner #wrapper .iPhone ul li a{
+#conteiner #wrapper .iPhone ul li .last{
+text-align:center;
 text-decoration:none;
-}
-
-#conteiner #wrapper .iPhone ul li a{
-font-size:100%;
-padding:5px 10px;
 display:block;
-background-color:#ffffff;
-color:#2889c6;
-border:#2185c4 solid 1px;
--moz-border-radius:7px; /* Firefox */
--webkit-border-radius:7px; /* Safari, Chrome */
-border-radius:7px; /* CSS3 */
-behavior: url(PIE.htc); /* IE < 9 */
 width:130px;
-text-align:center;
-font-family: LatoLight; /* Гарнитура шрифта */
-src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+padding:5px 10px;
+background-color:0071b0;
+color:#ffffff;
+-moz-border-radius:6px 6px 6px 6px; /* Firefox */
+-webkit-border-radius:6px 6px 6px 6px; /* Safari, Chrome */
+border-radius:6px 6px 6px 6px; /* CSS3 */
+behavior: url(PIE.htc); /* IE < 9 */
+border:#2185c4 solid 1px;
 }
 
 #conteiner #wrapper .iPhone ul li a:hover{
 color:#ffffff;
 background-color:0071b0;
 }
+
+#conteiner #wrapper .iPhone ul li ul li a{
+text-decoration:none;
+border-left:#2185c4 solid 1px;
+border-right:#2185c4 solid 1px;
+font-size:100%;
+padding:5px 10px;
+display:block;
+background-color:#ffffff;
+color:#2889c6;
+width:130px;
+text-align:left;
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+}
+
+#conteiner #wrapper .iPhone ul li ul li:last-child a{
+border-bottom:#2185c4 solid 1px;
+}
+
+#conteiner #wrapper .iPhone ul li ul{
+left:-9999px; /* ???????? ?? ???????, ????? ?? ????? (?????? ????? ?????, ??? display:none;) */	
+opacity:0; /* ????????????? ????????? ????????? ???????????? */
+-webkit-transition:0.3s linear opacity; /* ? Webkit ?????????? ?????? ????? ??????????? */
+-moz-transition:0.3s linear opacity;
+-ms-filter: "progid:DXImageTransform.Microsoft. Alpha(Opacity=50)";
+filter: alpha(opacity=50);
+
+position:absolute;
+}
+
+#conteiner #wrapper .iPhone ul li:hover ul{
+left:0px; /* ???????? ?? ???????, ????? ?? ????? (?????? ????? ?????, ??? display:none;) */	
+opacity:1; /* ????????????? ????????? ????????? ???????????? */
+filter: alpha(opacity=25);
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
+#conteiner #wrapper .iPhone ul li:hover .last{
+-moz-border-radius:6px 6px 0px 0px; /* Firefox */
+-webkit-border-radius:6px 6px 0px 0px; /* Safari, Chrome */
+border-radius:6px 6px 0px 0px; /* CSS3 */
+behavior: url(PIE.htc); /* IE < 9 */
+}
+
 
 #conteiner #wrapper #leftblock{
 float:left;
