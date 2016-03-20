@@ -1396,7 +1396,7 @@ padding:0px;
 }
 
 #conteiner header .wrapper nav ul li{
-list-style:left;
+list-style:none;
 float:none;
 color:#2185c4;
 text-align:center;
