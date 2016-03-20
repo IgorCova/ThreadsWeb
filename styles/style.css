@@ -1353,7 +1353,7 @@ float:none;
 
 }
 
-@media screen and  (max-width: 480px) {
+@media screen and  (max-width: 420px) {
  
 #conteiner #communities{
 padding-top:250px;
