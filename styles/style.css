@@ -200,7 +200,7 @@ cursor:pointer;
 color:#ffffff;
 }
 
-#conteiner #crossplatform .android div span{
+#conteiner #crossplatform .android div div span{
 text-align:center;
 margin-top:10px;
 color:#757575;
@@ -250,7 +250,7 @@ text-decoration:none;
 }
 
 
-#conteiner #crossplatform a .IPhoneIPad div span{
+#conteiner #crossplatform a .IPhoneIPad div div span{
 color:#2185c4;
 font-size:150%;
 display:block;
@@ -284,21 +284,19 @@ background-color:#2185c4;
 cursor:pointer;
 }
 
-#conteiner #crossplatform .WindowsPhone:hover > div:last-child span{
+#conteiner #crossplatform .WindowsPhone:hover > div div:last-child span{
 background-color:#2185c4;
 cursor:pointer;
 color:#ffffff;
 }
 
-
-#conteiner #crossplatform .WindowsPhone div:last-child span{
+#conteiner #crossplatform .WindowsPhone div div:last-child span{
 color:#757575;
 font-size:150%;
 display:block;
 margin-top:10px;
 text-align:center;
 }
-
 
 #conteiner #platform{
 padding-top:50px;
@@ -343,14 +341,14 @@ cursor:pointer;
 color:#ffffff;
 }
 
-#conteiner #crossplm .IPhoneIPad div span{
+#conteiner #crossplm .IPhoneIPad div div:last-child span{
 display:block;
 margin-top:10px;
 font-size:170%;
 color:#737373;
 }
 
-#conteiner #crossplm .IPhoneIPad div span:hover{
+#conteiner #crossplm .IPhoneIPad:hover > div div:last-child span{
 color:#ffffff;
 }
 
@@ -1353,7 +1351,9 @@ float:none;
 
 }
 
-@media screen and  (max-width: 420px) {
+/*iPhone 6 Plump portrait*/
+
+@media screen and  (max-width: 414px) {
  
 #conteiner #communities{
 padding-top:250px;
@@ -1565,6 +1565,315 @@ margin-left:10%;
 footer #footer .About{
 float:left;
 margin-left:10%;
+}
+/*footer*/
+
+}
+
+
+@media screen and  (max-width: 375px) {
+ 
+#conteiner #communities{
+padding-top:250px;
+width:320px;
+margin:0 auto;
+text-align:center;
+}
+
+#conteiner header {
+  display: block;
+  border-bottom:#cacaca 1px solid;
+  box-shadow: 0px 0px 1px 0px #cacaca;
+  width:100%;
+  position:fixed;
+  height:140px;
+  background-color:#ffffff;
+}
+ 
+#conteiner header .wrapper{
+margin:0 auto;
+text-align:center;
+width:100%;
+height:130px;
+margin:0px;
+}
+
+#conteiner header .wrapper nav{
+margin:0px;
+float:none;
+width:150px;
+height:20px;
+text-align:center;
+margin:0 auto;
+}
+
+#conteiner header .wrapper nav ul{
+margin-top:20px;
+margin-left:0px;
+padding:0px;
+}
+
+#conteiner header .wrapper nav ul li{
+list-style:none;
+float:none;
+color:#2185c4;
+text-align:center;
+}
+
+#conteiner header .wrapper nav ul li:first-child{
+margin-top:0px;
+margin-right:90px;
+}
+
+#conteiner header .wrapper nav ul li:last-child{
+padding-left:0px;
+text-align:center;
+float:none;
+margin-top:-18px;
+margin-left:60px;
+}
+
+#conteiner header .wrapper nav ul li a span{
+display:block;
+color:#2185c4;
+}
+
+#conteiner header .wrapper nav ul li a{
+text-decoration:none;
+font-size:90%;
+display:block;
+}
+
+#conteiner header .wrapper nav ul li a span:hover{
+display:block;
+text-decoration:underline;
+color:#2185c4;
+}
+
+#conteiner header .wrapper nav ul li a:first-child{
+ font-family: latoRegular; /* Гарнитура шрифта */
+ src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+ 
+}
+
+#conteiner header .wrapper nav ul li .last{
+ font-family: LatoLight; /* Гарнитура шрифта */
+ src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+}
+
+#conteiner header .wrapper .comm{
+float:none;
+width:150px;
+text-align:center;
+margin:0 auto;
+height:50px;
+}
+
+#conteiner header .wrapper .comm div{
+font-family: Comfortaa-Bold; /* Гарнитура шрифта */
+src: url(../fonts/Comfortaa-Bold.ttf); /* Путь к файлу со шрифтом */
+color:#2185c4;
+font-size:200%;
+margin-top:1px;
+}
+
+#conteiner header .wrapper .telegram{
+float:none;
+width:150px;
+height:50px;
+text-align:center;
+margin:0 auto;
+}
+
+#conteiner header .wrapper .telegram div{
+float:none;
+text-align:center;
+}
+
+#conteiner header .wrapper .telegram div a:last-child{
+display:block;
+margin-top:-26px;
+margin-right:70px;
+text-align:center;
+float:none;
+}
+
+#conteiner header .wrapper .telegram div a:first-child{
+margin-top:10px;
+margin-right:0px;
+margin-left:40px;
+text-align:center;
+float:none;
+}
+/*шапка сайта*/
+
+#conteiner #crossplatform a .IPhoneIPad div div span{
+color:#2185c4;
+font-size:110%;
+display:block;
+margin-top:10px;
+}
+
+#conteiner #crossplatform .android div div span{
+text-align:center;
+margin-top:10px;
+color:#757575;
+font-size:110%;
+display:block;
+}
+
+#conteiner #crossplatform .WindowsPhone div div:last-child span{
+color:#757575;
+font-size:110%;
+display:block;
+margin-top:10px;
+text-align:center;
+}
+
+#conteiner #crossplm .IPhoneIPad div div:last-child span{
+display:block;
+margin-top:10px;
+font-size:115%;
+color:#737373;
+}
+
+#conteiner #crossplm .IPhoneIPad{
+width:100%;
+padding:10px 5px 5px 5px;
+border-radius:10px 10px 10px 10px;
+}
+
+#conteiner #crossplm{
+width:260px;
+}
+
+#conteiner #crossplm .IPhoneIPad div div:first-child img{
+height:110px;
+}
+
+#conteiner #crossplatform{
+width:170px;
+margin:50px auto 0;
+text-align:center;
+}
+
+#conteiner #platform div span {
+font-family: latoRegular; /* Гарнитура шрифта */
+src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+color:#000000;
+font-size:140%;
+}
+
+#conteiner #communities div span {
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+color:#2185c4;
+font-size:140%;
+}
+
+#conteiner #crossplatform a .IPhoneIPad div img{
+width:150px;
+}
+
+#conteiner #crossplatform .android div img{
+width:150px;
+}
+
+#conteiner #crossplatform .WindowsPhone div img{
+width:150px;
+}
+
+#conteiner #crossplatform .IPhoneIPad{
+float:none;
+}
+
+#conteiner #WhuComm .android{
+margin-top:30px;
+width:200px;
+float:none;
+}
+
+#conteiner #WhuComm .IPhoneIPad{
+margin-left:0px;
+margin-top:30px;
+width:200px;
+float:none;
+}
+
+#conteiner #WhuComm .IPhoneIPadIE{
+margin-left:0px;
+width:200px;
+float:none;
+}
+
+#conteiner #WhuComm .WindowsPhone{
+width:200px;
+}
+
+#conteiner #WhuComm{
+width:200px;
+margin:20px auto 0;
+text-align:center;
+}
+
+#conteiner #WhuComm .android div div img{
+width:150px;
+}
+
+#conteiner #WhuComm .IPhoneIPad div div img{
+width:150px;
+}
+
+#conteiner #WhuComm .IPhoneIPadIE div div img{
+width:150px;
+}
+
+#conteiner #WhuComm .WindowsPhone div div img{
+width:150px;
+}
+/*kontent*/
+
+/*footer*/
+
+footer{
+height:100px;
+margin-top:-128px;
+clear:both;
+width:100%;
+}
+
+footer #footer{
+width:290px;
+clear:both;
+text-align:center;
+margin:0 auto;
+}
+
+footer #footer .rubrics{
+text-align:center;
+margin:0 auto;
+text-align:center;
+width:290px;
+margin-left:0px;
+}
+
+footer #footer .mobileApps{
+float:left;
+margin-right:0px;
+margin-left:0px;
+font-size:85%;
+}
+
+footer #footer .DesktopApps{
+float:left;
+margin-left:10%;
+font-size:85%;
+}
+
+footer #footer .About{
+float:left;
+margin-left:10%;
+font-size:85%;
 }
 /*footer*/
 
