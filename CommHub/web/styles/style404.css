@@ -1,0 +1,128 @@
+html,body{
+ margin:0;
+ padding:0;
+ height:100%;
+ background-color:#257EB8;
+}
+
+#conteiner{
+ width:100%;
+ height:100%;
+ display:table;
+}
+
+#conteiner .wrapper{
+ width:100%;
+ height:100%;
+ display:table-cell;
+ vertical-align:middle;
+}
+
+#conteiner .wrapper .fof{
+ width:600px;
+ height:350px;
+ background-image: url('../images/404.png');
+ background-size:cover;
+ margin:0 auto;
+}
+
+
+/*iPad landscape*/
+@media screen and  (max-width: 1024px) {
+ 
+ #conteiner .wrapper .fof{
+ width:500px;
+ height:300px;
+ }
+
+}
+
+/*iPad portrait*/
+@media screen and  (max-width: 768px) {
+ 
+ #conteiner .wrapper .fof{
+ width:480px;
+ height:280px;
+ }
+
+}
+
+/*iPhone 6 Plump landscape*/
+@media screen and  (max-width: 736px) {
+ 
+ #conteiner .wrapper .fof{
+ width:450px;
+ height:270px;
+ }
+
+}
+
+/*iPhone 6 landscape*/
+@media screen and  (max-width: 667px) {
+ 
+ #conteiner .wrapper .fof{
+ width:400px;
+ height:240px;
+ }
+
+}
+
+/*Android (Nexus 4) landscape*/
+@media screen and  (max-width: 600px) {
+ 
+ #conteiner .wrapper .fof{
+ width:370px;
+ height:220px;
+ }
+
+}
+
+/*iPhone 5 landscape*/
+@media screen and  (max-width: 568px) {
+ 
+ #conteiner .wrapper .fof{
+ width:360px;
+ height:220px;
+ }
+
+}
+
+/*iPhone 6 Plump portrait*/
+@media screen and  (max-width: 414px) {
+ 
+ #conteiner .wrapper .fof{
+ width:330px;
+ height:200px;
+ }
+
+}
+
+/*Android (Nexus 4) portrait*/
+@media screen and  (max-width: 384px) {
+ 
+ #conteiner .wrapper .fof{
+ width:280px;
+ height:170px;
+ }
+
+}
+
+/*Crappy Android landscape*/
+@media screen and  (max-width: 320px) {
+ 
+ #conteiner .wrapper .fof{
+ width:230px;
+ height:130px;
+ }
+
+}
+
+/*Crappy Android portrait*/
+@media screen and  (max-width: 240px) {
+ 
+ #conteiner .wrapper .fof{
+ width:130px;
+ height:80px;
+ }
+
+}

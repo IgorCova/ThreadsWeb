@@ -1,0 +1,111 @@
+@media screen and  (max-width: 1024px) {
+	
+#conteiner header {
+  width:50%;
+}
+	
+	
+	
+#conteiner header .wrapper{
+margin:0 auto;
+text-align:center;
+width:1050px;
+height:51px;
+}
+
+#conteiner header .wrapper nav{
+margin:0px;
+float:left;
+width:30%;
+}
+
+#conteiner header .wrapper nav ul{
+margin-top:18px;
+margin-left:-42px;
+}
+
+#conteiner header .wrapper nav ul li{
+list-style:none;
+float:left;
+color:#2185c4;
+}
+
+#conteiner header .wrapper nav ul li:last-child{
+padding-left:30px;
+}
+
+#conteiner header .wrapper nav ul li a span{
+display:block;
+color:#2185c4;
+}
+
+#conteiner header .wrapper nav ul li a{
+text-decoration:none;
+font-size:103%;
+display:block;
+}
+
+#conteiner header .wrapper nav ul li a span:hover{
+display:block;
+text-decoration:underline;
+color:#2185c4;
+}
+
+#conteiner header .wrapper nav ul li a:first-child{
+ font-family: latoRegular; /* Гарнитура шрифта */
+ src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+}
+
+#conteiner header .wrapper nav ul li .last{
+ font-family: LatoLight; /* Гарнитура шрифта */
+ src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+}
+
+#conteiner header .wrapper .comm{
+float:left;
+width:39%;
+text-align:center;
+}
+
+#conteiner header .wrapper .comm div{
+font-family: Comfortaa-Bold; /* Гарнитура шрифта */
+src: url(../fonts/Comfortaa-Bold.ttf); /* Путь к файлу со шрифтом */
+color:#2185c4;
+font-size:230%;
+margin-top:1px;
+}
+
+#conteiner header .wrapper .telegram{
+float:right;
+width:30%;
+height:70px;
+}
+
+#conteiner header .wrapper .telegram div{
+float:right;
+}
+
+#conteiner header .wrapper .telegram div a:last-child{
+display:block;
+float:right;
+margin-top:10px;
+margin-right:10px;
+}
+
+#conteiner header .wrapper .telegram div a:first-child{
+margin-top:18px;
+display:block;
+float:right;
+text-decoration:none;
+color:#2185c4;
+font-size:102%;
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+}
+
+#conteiner header .wrapper .telegram div a:last-child:hover{
+text-decoration:underline;
+}
+/*шапка сайта*/
+
+}

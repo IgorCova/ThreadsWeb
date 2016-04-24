@@ -1,0 +1,462 @@
+body, html {
+margin:0px;
+padding:0px;
+height: 100%;
+font-family:Arial, Helvetica, sans-serif, "Times New Roman";
+
+}
+
+#conteiner header {
+  display: block;
+  width:100%;
+  position:fixed;
+  height:53px;
+  background-color:#ffffff;
+}
+
+
+.clear{width:100%;
+	clear:both;}
+
+@font-face {
+    font-family: LatoLight; /* Гарнитура шрифта */
+    src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+   }
+   
+@font-face {
+    font-family: latoRegular; /* Гарнитура шрифта */
+    src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+   }
+   
+   
+@font-face {
+    font-family: Comfortaa-Bold; /* Гарнитура шрифта */
+    src: url(../fonts/Comfortaa-Bold.ttf); /* Путь к файлу со шрифтом */
+   }
+
+* html #conteiner{
+height: 100%;
+}
+
+#conteiner {
+min-height: 100%;
+background-image: linear-gradient(to bottom, #2e6597 0%, #244566 100%);
+}
+
+/*шапка сайта*/
+#conteiner header .wrapper{
+
+margin:0 auto;
+text-align:center;
+width:1050px;
+height:51px;
+}
+
+#conteiner header .wrapper nav{
+margin:0px;
+float:left;
+width:30%;
+}
+
+#conteiner header .wrapper nav ul{
+margin-top:18px;
+margin-left:-42px;
+}
+
+#conteiner header .wrapper nav ul li{
+list-style:none;
+float:left;
+color:#2185c4;
+}
+
+#conteiner header .wrapper nav ul li:last-child{
+padding-left:30px;
+}
+
+#conteiner header .wrapper nav ul li a span{
+display:block;
+color: #2f65a4;
+}
+
+#conteiner header .wrapper nav ul li a{
+text-decoration:none;
+font-size:103%;
+display:block;
+}
+
+#conteiner header .wrapper nav ul li a span:hover{
+display:block;
+text-decoration:underline;
+color:#2185c4;
+}
+
+#conteiner header .wrapper nav ul li a:first-child{
+ font-family: latoRegular; /* Гарнитура шрифта */
+ src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+}
+
+#conteiner header .wrapper nav ul li .last{
+ font-family: LatoLight; /* Гарнитура шрифта */
+ src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+}
+
+#conteiner header .wrapper .comm{
+float:left;
+width:39%;
+text-align:center;
+}
+
+#conteiner header .wrapper .comm div{
+font-family: Comfortaa-Bold; /* Гарнитура шрифта */
+src: url(../fonts/Comfortaa-Bold.ttf); /* Путь к файлу со шрифтом */
+margin-top:1px;
+height: 49px;
+color: #2f65a4;
+font-size: 38px;
+font-weight: 700;
+}
+
+#conteiner header .wrapper .telegram{
+float:right;
+width:30%;
+height:70px;
+}
+
+#conteiner header .wrapper .telegram div{
+float:right;
+}
+
+#conteiner header .wrapper .telegram div a:last-child{
+display:block;
+float:right;
+margin-top:10px;
+margin-right:10px;
+}
+
+#conteiner header .wrapper .telegram div a:first-child:hover{
+text-decoration:underline;
+}
+
+#conteiner header .wrapper .telegram div a:first-child{
+margin-top:18px;
+display:block;
+float:right;
+text-decoration:none;
+color: #2f65a4;
+font-size:102%;
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+}
+
+#conteiner header .wrapper .telegram div a:last-child:hover{
+text-decoration:underline;
+}
+/*шапка сайта*/
+
+
+/*контент*/
+
+#conteiner #general{
+width:400px;
+margin:0 auto 0;
+padding-top:100px;
+text-align:center;
+}
+
+#conteiner #communities{
+padding-top:20px;
+width:900px;
+margin:0 auto;
+text-align:center;
+}
+
+#conteiner #communities div span {
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+color: white;
+width: 427px;
+height: 54px;
+color: white;
+font-size:150%;
+font-weight:bold;
+}
+
+#conteiner #communities{
+text-align:center;
+}
+
+#conteiner #slide{
+display:table;
+padding-top:50px;
+text-align:center;
+margin:0 auto 0;
+width: 940px;
+}
+
+#conteiner #slide #left{
+float:left;
+display:table;
+height:400px;
+width:40px;
+margin-right:10px;
+}
+
+#conteiner #slide #left div{
+}
+
+#conteiner #slide #left div div{
+width: 30px;
+height: 30px;
+background-color: #fffffe;
+border-radius:50px;	
+}
+
+#conteiner #slide div:nth-child(2){
+float:left;
+margin:0 auto 0;
+text-align:center;
+width: 840px;
+height: 400px;
+opacity: 0.3;
+background-color: white;
+border-radius: 10px;
+}
+
+#conteiner #slide #right{
+float:right;
+display:table;
+height:400px;
+width:40px;
+margin-left:10px;
+}
+
+#conteiner #slide #right div{
+
+}
+
+#conteiner #slide #right div div{
+width: 30px;
+height: 30px;
+background-color: #fffffe;
+border-radius:50px;	
+margin-left:10px;
+}
+
+#conteiner #slider{
+text-align:center;
+margin:15px auto 0;
+width: 1060px;
+}
+
+#conteiner #slider .left{
+width:49%;
+float:left;
+}
+
+#conteiner #slider .center{
+width:1.5%;
+float:left;
+}
+
+#conteiner #slider .right{
+width:48%;
+float:left;
+}
+
+#conteiner #slider .left div{
+float:right;
+width: 15px;
+height: 15px;
+background-color: white;
+border-radius:50px;	
+margin-right:10px;
+}
+
+#conteiner #slider .center div{
+width: 15px;
+height: 15px;
+background-color: white;
+opacity: 0.3;
+border-radius:50px;	
+}
+
+#conteiner #slider .right div{
+float:left;
+width: 15px;
+height: 15px;
+background-color: white;
+opacity: 0.3;
+border-radius:50px;	
+margin-left:10px;
+}
+
+#conteiner #Mac{
+padding-top:70px;
+text-align:center;
+margin:0 auto 0;
+}
+
+#conteiner #Mac input[type="submit"]{
+width: 248px;
+height: 40px;
+background-color: #4a90e2;
+border-radius: 5px;
+color: white;
+font-size: 23px;
+font-weight: 400;
+border:#4a90e2; 
+cursor:pointer;
+}
+
+#conteiner #comm{
+text-align:center;
+padding-top:100px;
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+color: white;
+width: 427px;
+height: 54px;
+color: white;
+font-size:150%;
+font-weight:bold;
+margin:0 auto;
+}
+
+#conteiner #polzovanie{
+text-align:center;
+margin:50px auto 0;
+width: 1100px;
+}
+
+#conteiner #polzovanie .left{
+ float:left;
+}
+
+#conteiner #polzovanie .left div{
+width: 489px;
+height: 100px;
+color: white;
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+font-size: 25px;
+font-weight: 800;
+}
+
+#conteiner #polzovanie .left div:nth-child(2){
+margin-top:50px;
+}
+
+#conteiner #polzovanie .right{
+ float:right;
+}
+
+#conteiner #polzovanie .right div{
+width: 489px;
+height: 100px;
+color: white;
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+font-size: 25px;
+font-weight: 800;
+}
+
+#conteiner #polzovanie .right div:nth-child(2){
+margin-top:50px;
+}
+
+/*контент*/
+
+
+
+/*rasporka*/
+
+/*rasporka*/
+
+/*footer*/
+
+footer{
+background-color: white;
+height: 64px;
+margin-top:-64px;
+clear:both;
+width:100%;
+}
+
+footer #footer{
+width:400px;
+text-align:center;
+margin:0 auto;
+height: 64px;
+}
+
+footer #footer .rubrics{
+height: 64px;
+text-align:center;
+margin:0 auto;
+width:400px;
+margin-left:50px;
+}
+
+footer #footer .mobileApps{
+height: 64px;
+float:left;
+margin-right:20px;
+}
+
+footer #footer .DesktopApps{
+height: 64px;
+float:left;
+}
+
+footer #footer .About{
+height: 64px;
+float:left;
+margin-left:20px;
+}
+
+footer #footer .mobileApps span a:hover, footer #footer .DesktopApps span a:hover, footer #footer .About span a:hover{
+text-decoration:underline;
+}
+
+footer #footer .mobileApps span a{
+text-decoration:none;
+display:block;
+text-align:left;
+color: #2f65a4;
+text-decoration:none;
+margin-top:20px;
+font-family: latoRegular; /* Гарнитура шрифта */
+src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+font-size: 20px;
+font-weight: 400;
+}
+
+footer #footer .DesktopApps span a{
+text-decoration:none;
+display:block;
+text-align:left;
+color: #2f65a4;
+text-decoration:none;
+margin-top:20px;
+font-family: latoRegular; /* Гарнитура шрифта */
+src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+font-size: 20px;
+font-weight: 400;
+}
+
+footer #footer .About span a{
+text-decoration:none;
+display:block;
+text-align:left;
+color: #2f65a4;
+text-decoration:none;
+margin-top:20px;
+font-family: latoRegular; /* Гарнитура шрифта */
+src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+font-size: 20px;
+font-weight: 400;
+}
+
+/*footer*/
+
+

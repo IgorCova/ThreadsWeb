@@ -130,6 +130,10 @@ margin-top:10px;
 margin-right:10px;
 }
 
+#conteiner header .wrapper .telegram div a:first-child:hover{
+text-decoration:underline;
+}
+
 #conteiner header .wrapper .telegram div a:first-child{
 margin-top:18px;
 display:block;
