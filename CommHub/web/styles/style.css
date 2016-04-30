@@ -307,7 +307,7 @@ text-align:center;
 margin:0 auto 0;
 }
 
-#conteiner #Mac input[type="botton"]{
+#conteiner #Mac input[type="submit"]{
 width: 248px;
 height: 40px;
 background-color: #4a90e2;
@@ -320,7 +320,7 @@ cursor:pointer;
 text-align:center;
 }
 
-#conteiner #Mac input[type="botton"]:hover{
+#conteiner #Mac input[type="submit"]:hover{
 	background-color: #4a70e9;
 }
 
@@ -330,7 +330,7 @@ margin:50px auto 0;
 margin-bottom:70px;
 }
 
-#conteiner #Mac2 input[type="botton"]{
+#conteiner #Mac2 input[type="submit"]{
 width: 248px;
 height: 40px;
 background-color: #4a90e2;
@@ -343,7 +343,7 @@ cursor:pointer;
 text-align:center;
 }
 
-#conteiner #Mac2 input[type="botton"]:hover{
+#conteiner #Mac2 input[type="submit"]:hover{
 	background-color: #4a70e9;
 }
 
