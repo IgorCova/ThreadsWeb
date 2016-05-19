@@ -1,4 +1,4 @@
-* body, html {
+body, html {
 margin:0px;
 padding:0px;
 height: 100%;
@@ -430,6 +430,123 @@ color: #2b5a85;
 font-size: 21px;
 font-weight: 400;
 text-align:left;
+}
+
+#conteiner #ScreenStation{
+width:100%;
+margin:150px auto 0;
+text-align:center;
+}
+
+#conteiner #ScreenStation div span {
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+color: white;
+width: 427px;
+height: 54px;
+color: #2a5884;
+font-size: 28px;
+font-weight: 800;
+}
+
+#conteiner #ScreenStation div span img{
+width: 799px;
+height: 500px;
+margin-top:25px;
+}
+
+#conteiner #Menu{
+width:100%;
+margin:150px auto 0;
+text-align:center;
+}
+
+#conteiner #Menu div span {
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+color: white;
+width: 427px;
+height: 54px;
+color: #2a5884;
+font-size: 28px;
+font-weight: 800;
+}
+
+#conteiner #Menu div span img{
+width: 799px;
+height: 500px;
+margin-top:25px;
+}
+
+
+#conteiner #Admin{
+width:100%;
+margin:150px auto 0;
+text-align:center;
+}
+
+#conteiner #Admin div span {
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+color: white;
+width: 427px;
+height: 54px;
+color: #2a5884;
+font-size: 28px;
+font-weight: 800;
+}
+
+#conteiner #Admin div span img{
+width: 799px;
+height: 500px;
+margin-top:25px;
+}
+
+
+#conteiner #Tematiki{
+width:100%;
+margin:150px auto 0;
+text-align:center;
+}
+
+#conteiner #Tematiki div span {
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+color: white;
+width: 427px;
+height: 54px;
+color: #2a5884;
+font-size: 28px;
+font-weight: 800;
+}
+
+#conteiner #Tematiki div span img{
+width: 799px;
+height: 500px;
+margin-top:25px;
+}
+
+#conteiner #community{
+width:100%;
+margin:150px auto 0;
+text-align:center;
+}
+
+#conteiner #community div span {
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+color: white;
+width: 427px;
+height: 54px;
+color: #2a5884;
+font-size: 28px;
+font-weight: 800;
+}
+
+#conteiner #community div span img{
+width: 799px;
+height: 500px;
+margin-top:25px;
 }
 
 #conteiner #download{
