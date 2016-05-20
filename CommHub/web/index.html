@@ -9,6 +9,20 @@
 <link href="styles/style.css" rel="stylesheet" type="text/css">
 <link rel="icon" href="/images/favicon.png" type="image/x-icon">
 
+
+<script type="text/javascript">
+  /* <![CDATA[ */
+   function externalLinks() {
+    links = document.getElementsByTagName("a");
+    for (i=0; i<links.length; i++) {
+      link = links[i];
+      if (link.getAttribute("href") && link.getAttribute("rel") == "external")
+      link.target = "_blank";
+    }
+   }
+   window.onload = externalLinks;
+  /* ]]> */ 
+ </script>
 </head>
 <body>
 <div id="conteiner">
@@ -23,8 +37,8 @@
 						
 				    <div class="telegram">
 			            <div>
-				            <a href="https://spark.ru/startup/commhub">Спарк</a>	
-							<a href="https://spark.ru/startup/commhub"><img src="images/star-1.png" alt="Telegram" /></a>
+				            <a href="https://spark.ru/startup/commhub" target="_blank">Спарк</a>	
+							<a href="https://spark.ru/startup/commhub" target="_blank"><img src="images/star-1.png" alt="Telegram" /></a>
 			            </div>    			 
 			        </div>					
 			    </div>			 			 
@@ -137,15 +151,15 @@
 	  <div id="footer">
 	   <div class="rubrics">
 	     <div class="mobileApps">
-		    <span><a href="https://spark.ru/startup/commhub">Контакты</a></span>
+		    <span><a href="https://spark.ru/startup/commhub" target="_blank">Контакты</a></span>
 		 </div>
 		 
 		 <div class="DesktopApps">
-		    <span><a href="https://spark.ru/startup/commhub/blog">Блог</a></span>
+		    <span><a href="https://spark.ru/startup/commhub/blog" target="_blank">Блог</a></span>
 		 </div>
 		 
 		 <div class="About">
-		    <span><a href="https://spark.ru/startup/commhub/wall">Напишите нам</a></span>
+		    <span><a href="https://spark.ru/startup/commhub/wall" target="_blank">Напишите нам</a></span>
 		 </div>
 		  <div class="clear"></div> 
 		</div>
