@@ -162,21 +162,20 @@ text-align:center;
 }
 
 #conteiner #statistica{
-padding-top:20px;
 width:100%;
-margin:0 auto;
+margin:100px auto 0;
 text-align:center;
 }
 
 #conteiner #statistica div span {
 font-family: LatoLight; /* Гарнитура шрифта */
 src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
-color: white;
-width: 427px;
-height: 54px;
+width: 611px;
+height: 102px;
 color: #2a5884;
 font-size: 28px;
-font-weight: 800;
+font-weight: 700;
+line-height: 34px;
 }
 
 #conteiner #statistica div span span {
@@ -197,110 +196,6 @@ text-align:center;
 text-align:center;
 }
 
-#conteiner #slide{
-display:table;
-padding-top:50px;
-text-align:center;
-margin:0 auto 0;
-width: 940px;
-}
-
-#conteiner #slide #left{
-float:left;
-display:table;
-height:400px;
-width:40px;
-margin-right:10px;
-}
-
-#conteiner #slide #left div{
-}
-
-#conteiner #slide #left div div{
-width: 30px;
-height: 30px;
-background-color: #fffffe;
-border-radius:50px;	
-}
-
-#conteiner #slide div:nth-child(2){
-float:left;
-margin:0 auto 0;
-text-align:center;
-width: 840px;
-height: 400px;
-opacity: 0.3;
-background-color: white;
-border-radius: 10px;
-}
-
-#conteiner #slide #right{
-float:right;
-display:table;
-height:400px;
-width:40px;
-margin-left:10px;
-}
-
-#conteiner #slide #right div{
-
-}
-
-#conteiner #slide #right div div{
-width: 30px;
-height: 30px;
-background-color: #fffffe;
-border-radius:50px;	
-margin-left:10px;
-}
-
-#conteiner #slider{
-text-align:center;
-margin:15px auto 0;
-width: 1060px;
-}
-
-#conteiner #slider .left{
-width:49%;
-float:left;
-}
-
-#conteiner #slider .center{
-width:1.5%;
-float:left;
-}
-
-#conteiner #slider .right{
-width:48%;
-float:left;
-}
-
-#conteiner #slider .left div{
-float:right;
-width: 15px;
-height: 15px;
-background-color: white;
-border-radius:50px;	
-margin-right:10px;
-}
-
-#conteiner #slider .center div{
-width: 15px;
-height: 15px;
-background-color: white;
-opacity: 0.3;
-border-radius:50px;	
-}
-
-#conteiner #slider .right div{
-float:left;
-width: 15px;
-height: 15px;
-background-color: white;
-opacity: 0.3;
-border-radius:50px;	
-margin-left:10px;
-}
 
 #conteiner #Mac{
 padding-top:70px;
@@ -441,7 +336,6 @@ text-align:center;
 #conteiner #ScreenStation div span {
 font-family: LatoLight; /* Гарнитура шрифта */
 src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
-color: white;
 width: 427px;
 height: 54px;
 color: #2a5884;
@@ -459,6 +353,16 @@ margin-top:25px;
 width:100%;
 margin:150px auto 0;
 text-align:center;
+}
+
+#conteiner #Menu div span span{
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+width: 693px;
+height: 25px;
+color: #2b5a85;
+font-size: 21px;
+font-weight: 400;
 }
 
 #conteiner #Menu div span {
@@ -485,6 +389,17 @@ margin:150px auto 0;
 text-align:center;
 }
 
+#conteiner #Admin div span span{
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+width: 854px;
+height: 50px;
+color: #2b5a85;
+font-size: 21px;
+font-weight: 400;
+line-height: 25px;
+}
+
 #conteiner #Admin div span {
 font-family: LatoLight; /* Гарнитура шрифта */
 src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
@@ -509,6 +424,17 @@ margin:150px auto 0;
 text-align:center;
 }
 
+#conteiner #Tematiki div span span{
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+width: 775px;
+height: 50px;
+color: #2b5a85;
+font-size: 21px;
+font-weight: 400;
+line-height: 25px;
+}
+
 #conteiner #Tematiki div span {
 font-family: LatoLight; /* Гарнитура шрифта */
 src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
@@ -530,6 +456,17 @@ margin-top:25px;
 width:100%;
 margin:150px auto 0;
 text-align:center;
+}
+
+#conteiner #community div span span{
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+/* Text style for "В этом окне вы" */
+width: 811px;
+height: 75px;
+font-size: 21px;
+font-weight: 400;
+line-height: 25px;
 }
 
 #conteiner #community div span {
