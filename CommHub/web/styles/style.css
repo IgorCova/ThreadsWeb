@@ -343,6 +343,17 @@ font-size: 28px;
 font-weight: 800;
 }
 
+#conteiner #ScreenStation div span span{
+font-family: LatoLight; /* Гарнитура шрифта */
+src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+width: 594px;
+height: 25px;
+color: #2b5a85;
+font-size: 21px;
+font-weight: 400;
+line-height: 25px;
+}
+
 #conteiner #ScreenStation div span img{
 margin-top:25px;
 cursor:pointer;
