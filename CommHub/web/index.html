@@ -21,8 +21,17 @@
     }
    }
    window.onload = externalLinks;
-  /* ]]> */ 
+   
+var bigsize = "1300"; //Размер большой картинки
+var smallsize = "800"; //Размер маленькой картинки
+         
+		 function changeSizeImage(im) {
+             if(im.width == bigsize) im.width = smallsize;
+             else im.width = bigsize;
+			 }
  </script>
+ 
+
 </head>
 <body>
 <div id="conteiner">
@@ -75,7 +84,7 @@
 	<div>
 	     <span>
 	         Экран статистики<br />
-			 <img src="images/screen.gif">
+			 <img src="images/screen.gif" width="800" onclick="changeSizeImage(this)">
 	     </span>
 	</div>
 </div>
@@ -84,7 +93,7 @@
 	<div>
 	     <span>
 	         Меню<br />
-			 <img src="images/menu.gif"><br />
+			 <img src="images/menu.gif" width="800" onclick="changeSizeImage(this)"><br />
 			 <span>Используйте меню или горячие клавиши для перехода к другим окнам</span>
 	     </span>
 	</div>
@@ -94,7 +103,7 @@
 	<div>
 	     <span>
 	         Администраторы<br />
-			 <img src="images/admin.gif"><br />
+			 <img src="images/admin.gif" width="800" onclick="changeSizeImage(this)"><br />
 			 <span>
 			    В этом окне вы можете добавить участников в свою команду.<br />
                 Нажмите на администратора для редактирования или на плюс для добавления нового.
@@ -107,7 +116,7 @@
 	<div>
 	     <span>
 		     Тематики<br />
-	         <img src="images/tematiki.gif"><br />
+	         <img src="images/tematiki.gif" width="800" onclick="changeSizeImage(this)"><br />
 			 <span>
 			    В этом окне вы можете добавлять или редактировать список тематик.<br />
                 Нажмите на тематику для редактирования или на плюс для добавления новой.
@@ -120,7 +129,7 @@
 	<div>
 	     <span>
 	         Сообщества<br />
-			 <img src="images/community.gif"><br />
+			 <img src="images/community.gif" width="800" onclick="changeSizeImage(this)"><br />
 			 <span>
 				 В этом окне вы можете добавлять или редактировать список сообществ, <br />
 				 а так же назначить администратора и тематику в сообщества.<br />

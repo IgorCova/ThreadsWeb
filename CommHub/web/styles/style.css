@@ -344,14 +344,13 @@ font-weight: 800;
 }
 
 #conteiner #ScreenStation div span img{
-width: 799px;
-height: 500px;
 margin-top:25px;
+cursor:pointer;
 }
 
 #conteiner #Menu{
 width:100%;
-margin:150px auto 0;
+margin:40px auto 0;
 text-align:center;
 }
 
@@ -377,15 +376,14 @@ font-weight: 800;
 }
 
 #conteiner #Menu div span img{
-width: 799px;
-height: 500px;
 margin-top:25px;
+cursor:pointer;
 }
 
 
 #conteiner #Admin{
 width:100%;
-margin:150px auto 0;
+margin:40px auto 0;
 text-align:center;
 }
 
@@ -412,15 +410,14 @@ font-weight: 800;
 }
 
 #conteiner #Admin div span img{
-width: 799px;
-height: 500px;
+cursor:pointer;
 margin-top:25px;
 }
 
 
 #conteiner #Tematiki{
 width:100%;
-margin:150px auto 0;
+margin:40px auto 0;
 text-align:center;
 }
 
@@ -447,14 +444,13 @@ font-weight: 800;
 }
 
 #conteiner #Tematiki div span img{
-width: 799px;
-height: 500px;
+cursor:pointer;
 margin-top:25px;
 }
 
 #conteiner #community{
 width:100%;
-margin:150px auto 0;
+margin:40px auto 0;
 text-align:center;
 }
 
@@ -481,8 +477,7 @@ font-weight: 800;
 }
 
 #conteiner #community div span img{
-width: 799px;
-height: 500px;
+cursor:pointer;
 margin-top:25px;
 }
 
