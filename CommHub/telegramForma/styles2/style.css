@@ -1,0 +1,186 @@
+ body, html {
+margin:0px;
+padding:0px;
+height: 100%;
+font-family:Arial, Helvetica, sans-serif, "Times New Roman";
+width:100%;
+overflow-x:hidden;
+
+}
+
+
+
+.clear{width:100%;
+	clear:both;}
+
+@font-face {
+    font-family: LatoLight; /* Гарнитура шрифта */
+    src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+   }
+   
+@font-face {
+    font-family: latoRegular; /* Гарнитура шрифта */
+    src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+   }
+   
+   
+@font-face {
+    font-family: Comfortaa-Bold; /* Гарнитура шрифта */
+    src: url(../fonts/Comfortaa-Bold.ttf); /* Путь к файлу со шрифтом */
+   }
+
+* html #conteiner{
+width:100%;
+height: 100%;
+box-shadow: 0 9px 4px rgba(118, 151, 178, 0.69);
+}
+
+#conteiner {width:100%;
+min-height: 100%;
+background-color: #ecf3f8;
+}
+/*шапка сайта*/
+
+
+
+
+#conteiner #CommHub {
+text-align:center;
+margin:0 auto;
+width:404px;
+margin-top:-110px;
+}
+
+
+#conteiner #CommHub div:first-child img{
+height:30px;
+width:30px;
+}
+
+#conteiner #CommHub div:first-child{
+margin-top:0px;
+margin-left:15px;
+float:left;
+}
+
+#conteiner #CommHub div:nth-child(2){
+margin-left:19px; 
+margin-top:5px;
+float:left;
+}
+
+#conteiner #CommHub div:nth-child(4){
+float:right;
+margin-right:10px;
+margin-top:5px;
+}
+
+#conteiner #CommHub div:nth-child(3){
+float:right;
+height:8px;
+width:8px;
+margin-right:18px;
+margin-top:10px;
+border-top:solid #fff 2px;
+border-right:solid #fff 2px;
+transform: rotate(46deg);
+}
+
+#conteiner #CommHub div span{
+font-family: Comfortaa-Bold; /* Гарнитура шрифта */
+src: url(../fonts/Comfortaa-Bold.ttf); /* Путь к файлу со шрифтом */
+/* Text style for "CommHub" */
+width: 185px;
+height: 45px;
+color: white;
+font-size: 15px;
+font-weight: 700;
+}
+
+#conteiner #learnMore {
+text-align:center;
+margin:0 auto;
+width:404px;
+margin-top:30px;
+}
+
+#conteiner #learnMore div:first-child span{
+text-align:center;
+margin-top:0px;
+margin-left:15px;
+color:#84a2bc;
+font-size: 13px;
+}
+
+#conteiner #learnMore div:nth-child(2) a{
+text-decoration:none; 
+}
+
+#conteiner #learnMore div:nth-child(2) a span:hover{
+border-bottom:solid #84a2bc 1px;
+}
+
+#conteiner #learnMore div:nth-child(2) a span{
+text-align:center;
+margin-left:19px; 
+margin-top:5px;
+color:#84a2bc;
+font-weight: 700;
+font-size: 13px;
+}
+
+
+/*шапка сайта*/
+
+
+/*контент*/
+
+#conteiner #general{
+width:100%;
+margin:0 auto ;
+text-align:center;
+background-color:#5682a3;
+height: 226px;
+}
+
+#conteiner #Mac{
+margin:20px auto 0;
+padding:44px 65px;
+width:274px;
+height:250px;
+background-color:white;
+border-radius:2px;
+}
+
+#conteiner #Mac input[type="text"]{
+margin-top:30px;
+color: #23578a;
+font-weight: 400;
+width: 100%;
+height: 25px;
+border:none;
+border-bottom:solid #999 1px;
+text-align:left;
+}
+
+#conteiner #Mac form h3{
+	font-size: 15px;
+    font-weight: 700;
+	text-align:left;
+}
+
+#conteiner #Mac p{
+	color: #999;
+    margin: 15px 0 30px;
+    font-size: 13px;
+    line-height: 160%;
+	text-align:left;
+}
+
+/*контент*/
+
+
+
+
+
+

@@ -1,0 +1,153 @@
+html, body{
+margin:0;
+padding:0;
+height: 100%;
+font-family:Arial, Helvetica, sans-serif, "Times New Roman";
+}
+
+.clear{
+clear:both;
+}
+
+@font-face {
+    font-family: LatoLight; /* Гарнитура шрифта */
+    src: url(../fonts/LatoLight.ttf); /* Путь к файлу со шрифтом */
+   }
+   
+@font-face {
+    font-family: latoRegular; /* Гарнитура шрифта */
+    src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+   }
+   
+   
+@font-face {
+    font-family: Comfortaa-Bold; /* Гарнитура шрифта */
+    src: url(../fonts/Comfortaa-Bold.ttf); /* Путь к файлу со шрифтом */
+   }
+   
+html #container{
+height: 100%;
+}
+
+#container table tr .first #leftPanel{
+float:left;
+height:100%;
+position:relative;
+}
+
+#container table tr .first #leftPanel div{
+width:70px;
+}
+
+#container table tr .first #leftPanel div:nth-child(2) div img{
+padding:23px 23px 0px 23px;
+}
+
+#container table tr .first #leftPanel .last{
+position:absolute;
+bottom:0;
+margin-bottom:40px;
+}
+
+#container table tr .first #leftPanel .last div img{
+padding:23px 23px 0px 23px;
+}
+
+#container table{
+width:100%;
+height:100%;
+}
+
+#container table tr:first-child .first{
+width:70px;
+}
+
+#container table tr:first-child .last{
+height:70px;
+}
+
+#container table tr td{
+vertical-align: top; 
+}
+
+ #container table tr:first-child .last #content{
+float:left;
+width:84%; 
+}
+
+#container table tr:first-child .last #content header .socSeti{
+width:435px;
+margin: 0 auto;
+margin-top:15px;
+}
+
+#container table tr:first-child .last #content header .socSeti div{
+display: inline-block; 
+}
+
+#container table tr:first-child .last #content header .socSeti div a img{
+width:40px;
+height:40px;
+padding-left:40px;
+}
+
+#container table tr:first-child .last #rightPanel{
+float:right;
+width:16%;
+height:70px;
+}
+
+#container table #rightPanel header .avatar, #container table #rightPanel header .AntonBubas{
+float:right;
+}
+
+#container table #rightPanel header .AntonBubas div{
+margin-top:13px;
+margin-right:10px;
+}
+
+#container table #rightPanel header .AntonBubas div span{
+float:right;
+}
+
+#container table #rightPanel header .AntonBubas div span:first-child a{
+width: 106px;
+height: 25px;
+color: #567;
+font-family: latoRegular; /* Гарнитура шрифта */
+src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+text-decoration:none;
+}
+
+#container table #rightPanel header .AntonBubas div span:last-child a{
+width: 71px;
+height: 19px;
+color: #8ca0b3;
+font-family: latoRegular; /* Гарнитура шрифта */
+src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+text-decoration:none;
+}
+
+#container table tr:last-child td table tr:first-child .first{
+width:10px;
+}
+
+#container table tr:last-child td table tr:first-child td .polosaG{
+border-left:solid #eef4f9 15px;
+height:100%;
+}
+
+#container table tr:last-child td table tr:first-child .last{
+height:10px;
+}
+
+#container table tr:last-child td table tr:first-child td:last-child .polosaW{
+border-top:solid #eef4f9 15px;
+}
+
