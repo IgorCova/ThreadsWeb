@@ -104,13 +104,10 @@ float:right;
 #container table #rightPanel header .AntonBubas div{
 margin-top:13px;
 margin-right:10px;
-}
+} 
 
-#container table #rightPanel header .AntonBubas div span{
-float:right;
-}
 
-#container table #rightPanel header .AntonBubas div span:first-child a{
+#container table #rightPanel header .AntonBubas div div:first-child span:first-child a{
 width: 106px;
 height: 25px;
 color: #567;
@@ -122,7 +119,17 @@ line-height: 25px;
 text-decoration:none;
 }
 
-#container table #rightPanel header .AntonBubas div span:last-child a{
+#container table #rightPanel header .AntonBubas div div:first-child{
+margin:0px;
+margin-right:0px;	
+}
+
+#container table #rightPanel header .AntonBubas div div:last-child{
+margin:0px;
+margin-left:32px;	
+}
+
+#container table #rightPanel header .AntonBubas div div:last-child span:last-child a{
 width: 71px;
 height: 19px;
 color: #8ca0b3;
@@ -135,19 +142,226 @@ text-decoration:none;
 }
 
 #container table tr:last-child td table tr:first-child .first{
-width:10px;
+width:15px;
 }
 
-#container table tr:last-child td table tr:first-child td .polosaG{
+#container table tr:last-child td table tr:first-child .first .polosaG{
 border-left:solid #eef4f9 15px;
 height:100%;
 }
 
-#container table tr:last-child td table tr:first-child .last{
-height:10px;
+#container table tr:last-child td table tr:first-child td:last-child .Forums {
+width:100%;
+border-bottom:solid #8ca0b3 2px;
 }
 
 #container table tr:last-child td table tr:first-child td:last-child .polosaW{
 border-top:solid #eef4f9 15px;
+width:100%;
 }
 
+#container table tr:last-child td table tr:first-child td:last-child{
+height:15px;
+}
+
+#container table tr:last-child td table tr:first-child td:last-child .Forums div{
+width:513px;
+height:20px;
+}
+
+#container table tr:last-child td table tr:first-child td:last-child .Forums div .section_Community{
+float:left;
+border-right:solid #96a9ba 1px;
+width:250px; 
+text-align:center;
+}
+
+#container table tr:last-child td table tr:first-child td:last-child .Forums div .section_Community span{
+color:#8d9ba7;
+font-size:70%;
+font-family: latoRegular; /* Гарнитура шрифта */
+src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+}
+
+#container table tr:last-child td table tr:first-child td:last-child .Forums div .section_Admin span{
+color:#8d9ba7;
+font-size:70%;
+font-family: latoRegular; /* Гарнитура шрифта */
+src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
+}
+
+#container table tr:last-child td table tr:first-child td:last-child .Forums div .section_Admin{
+float:right;
+border-right:solid #96a9ba 1px;
+width:250px;
+text-align:center;
+}
+
+#container table tr:last-child td table tr:last-child .last #users{
+float:left;
+width:512px;
+height:100%;
+border-right:solid #96a9ba 1px;
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users .section_Community{
+float:left;
+width:250px; 
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users .section_Admin{
+float:right;
+width:257px; 
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users .section_Admin div:first-child{
+margin-top:5px;
+margin-right:5px;
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users .section_Community div:nth-child(2) span:first-child{
+font-weight:bold;
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users .section_Admin div:last-child {
+margin-top:23px;
+margin-right:20px;
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users .section_Community div:first-child{
+float:left;
+margin-top:5px;
+margin-left:5px;
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users .section_Community div:nth-child(2){
+float:left;
+margin-top:15px;
+margin-left:5px;
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users .section_Admin div:first-child{
+float:right;
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users .section_Admin div:last-child{
+float:right;
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users_item .section_Community{
+float:left;
+width:250px; 
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users_item{
+background-color:#eef4f9;
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users_item .section_Community div:nth-child(2) span:first-child{
+font-weight:bold;
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users_item .section_Admin div:first-child{
+margin-top:5px;
+margin-right:5px;
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users_item .section_Admin div:last-child {
+margin-top:23px;
+margin-right:20px;
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users_item .section_Admin{
+float:right;
+width:257px; 
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users_item .section_Community div:first-child{
+float:left;
+margin-top:5px;
+margin-left:5px;
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users_item .section_Community div:nth-child(2){
+float:left;
+margin-top:15px;
+margin-left:5px;
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users_item .section_Admin div:first-child{
+float:right;
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users_item .section_Admin div:last-child{
+float:right;
+}
+
+#container table tr:last-child td table tr:last-child .last #forma_registr{
+float:left;
+height:100%;
+width:50%;
+margin:0 auto;
+}
+
+#container table tr:last-child td table tr:last-child .last #forma_registr #Mac{
+text-align:center;
+margin:50px auto 0;
+width:357px;
+}
+
+#container table tr:last-child td table tr:last-child .last #forma_registr #Mac input[type="text"]:nth-child(2){
+margin-top:35px;
+padding-left:5px;
+width:350px;
+height: 25px;
+background-color: white;
+border:solid #23578a 1px;
+}
+
+#container table tr:last-child td table tr:last-child .last #forma_registr #Mac input[type="text"]{
+margin-top:15px;
+padding-left:5px;
+width:350px;
+height: 25px;
+background-color: white;
+border:solid #23578a 1px;
+}
+
+#container table tr:last-child td table tr:last-child .last #forma_registr #Mac input[type="submit"]:nth-child(5){
+margin-top:15px;
+margin-left:10px;
+color: #23578a;
+font-size: 15px;
+font-weight: 400;
+width: 150px;
+height: 25px;
+background-color: #ecf3f8;
+border-radius: 1px;
+box-shadow: -2px 3px 2px rgba(0, 0, 0, 0.2);
+cursor:pointer;
+float:left;
+}
+
+#container table tr:last-child td table tr:last-child .last #forma_registr #Mac input[type="submit"]{
+margin-right:10px;
+margin-top:15px;
+color: #23578a;
+font-size: 15px;
+font-weight: 400;
+width: 150px;
+height: 25px;
+background-color: #ecf3f8;
+border-radius: 1px;
+box-shadow: -2px 3px 2px rgba(0, 0, 0, 0.2);
+cursor:pointer;
+float:right;
+}
+
+
+#container #Mac .kvadrat{
+width:100px;
+height:100px;
+background-color:#eef4f9;
+text-align:center;
+margin:0 auto;
+}
