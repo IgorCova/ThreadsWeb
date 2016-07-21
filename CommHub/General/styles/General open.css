@@ -26,6 +26,7 @@ clear:both;
    }
    
 html #container{
+min-width:1300px;
 height: 100%;
 }
 
@@ -143,7 +144,6 @@ text-decoration:none;
 
 #container table tr:last-child td table tr:first-child .first{
 width:15px;
-height:100%;
 }
 
 #container table tr:last-child td table tr:first-child .first .polosaG{
@@ -166,16 +166,38 @@ height:15px;
 }
 
 #container table tr:last-child td table tr:first-child td:last-child .Forums div{
-width:513px;
+width:100%;
 height:20px;
 }
 
-#container table tr:last-child td table tr:first-child td:last-child .Forums div .section_Community{
+#container table tr:last-child td table tr:first-child td:last-child .Forums div div:first-child,
+#container table tr:last-child td table tr:first-child td:last-child .Forums div div:last-child{
+width:18%;
 float:left;
 border-right:solid #96a9ba 1px;
-width:250px; 
 text-align:center;
 }
+
+#container table tr:last-child td table tr:first-child td:last-child .Forums div div:last-child{
+border-right:none;
+}
+
+#container table tr:last-child td table tr:first-child td:last-child .Forums div div:nth-child(2),
+#container table tr:last-child td table tr:first-child td:last-child .Forums div div:nth-child(3),
+#container table tr:last-child td table tr:first-child td:last-child .Forums div div:nth-child(4),
+#container table tr:last-child td table tr:first-child td:last-child .Forums div div:nth-child(5),
+#container table tr:last-child td table tr:first-child td:last-child .Forums div div:nth-child(6),
+#container table tr:last-child td table tr:first-child td:last-child .Forums div div:nth-child(7),
+#container table tr:last-child td table tr:first-child td:last-child .Forums div div:nth-child(8),
+#container table tr:last-child td table tr:first-child td:last-child .Forums div div:nth-child(9),
+#container table tr:last-child td table tr:first-child td:last-child .Forums div div:nth-child(10){
+float:left;
+border-right:solid #96a9ba 1px;
+text-align:center;
+width:7%;
+}
+
+
 
 #container table tr:last-child td table tr:first-child td:last-child .Forums div .section_Community span{
 color:#8d9ba7;
@@ -184,31 +206,52 @@ font-family: latoRegular; /* Гарнитура шрифта */
 src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
 }
 
-#container table tr:last-child td table tr:first-child td:last-child .Forums div .section_Admin span{
+#container table tr:last-child td table tr:first-child td:last-child .Forums div div span{
 color:#8d9ba7;
 font-size:70%;
 font-family: latoRegular; /* Гарнитура шрифта */
 src: url(../fonts/latoRegular.ttf); /* Путь к файлу со шрифтом */
 }
 
-#container table tr:last-child td table tr:first-child td:last-child .Forums div .section_Admin{
-float:right;
-border-right:solid #96a9ba 1px;
-width:250px;
-text-align:center;
-}
+
 
 #container table tr:last-child td table tr:last-child .last #users{
 float:left;
-width:512px;
+width:100%;
 height:100%;
-border-right:solid #96a9ba 1px;
+border:solid red 1px;
 }
 
 #container table tr:last-child td table tr:last-child .last #users .users .section_Community{
 float:left;
-width:250px; 
+width:18%; border:solid red 1px;
 }
+
+#container table tr:last-child td table tr:last-child .last #users .users .section_Community,
+#container table tr:last-child td table tr:last-child .last #users .users .section_Admin{
+width:18%;
+float:left;
+border-right:solid #96a9ba 1px;
+text-align:center;
+}
+
+#container table tr:last-child td table tr:last-child .last #users .users div:nth-child(2),
+#container table tr:last-child td table tr:last-child .last #users .users div:nth-child(3),
+#container table tr:last-child td table tr:last-child .last #users .users div:nth-child(4),
+#container table tr:last-child td table tr:last-child .last #users .users div:nth-child(5),
+#container table tr:last-child td table tr:last-child .last #users .users div:nth-child(6),
+#container table tr:last-child td table tr:last-child .last #users .users div:nth-child(7),
+#container table tr:last-child td table tr:last-child .last #users .users div:nth-child(8),
+#container table tr:last-child td table tr:last-child .last #users .users div:nth-child(9),
+#container table tr:last-child td table tr:last-child .last #users .users div:nth-child(10){
+float:left;
+border-right:solid #96a9ba 1px;
+text-align:center;
+width:7%;
+}
+
+
+
 
 #container table tr:last-child td table tr:last-child .last #users .users .section_Admin{
 float:right;
